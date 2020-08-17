@@ -1,0 +1,207 @@
+E:\KUNAL\SKFGI\BusinessLayer\bin\Debug\BusinessLayer.dll
+E:\KUNAL\SKFGI\BusinessLayer\bin\Debug\BusinessLayer.pdb
+E:\KUNAL\SKFGI\BusinessLayer\bin\Debug\AjaxControlToolkit.dll
+E:\KUNAL\SKFGI\BusinessLayer\bin\Debug\DataAccess.dll
+E:\KUNAL\SKFGI\BusinessLayer\bin\Debug\Entity.dll
+E:\KUNAL\SKFGI\BusinessLayer\bin\Debug\DataAccess.pdb
+E:\KUNAL\SKFGI\BusinessLayer\bin\Debug\Entity.pdb
+E:\KUNAL\SKFGI\BusinessLayer\obj\Debug\ResolveAssemblyReference.cache
+E:\KUNAL\SKFGI\BusinessLayer\obj\Debug\BusinessLayer.dll
+E:\KUNAL\SKFGI\BusinessLayer\obj\Debug\BusinessLayer.pdb
+C:\Users\hi\Desktop\SKFGI\BusinessLayer\bin\Debug\BusinessLayer.dll
+C:\Users\hi\Desktop\SKFGI\BusinessLayer\bin\Debug\BusinessLayer.pdb
+C:\Users\hi\Desktop\SKFGI\BusinessLayer\bin\Debug\DataAccess.dll
+C:\Users\hi\Desktop\SKFGI\BusinessLayer\bin\Debug\Entity.dll
+C:\Users\hi\Desktop\SKFGI\BusinessLayer\bin\Debug\DataAccess.pdb
+C:\Users\hi\Desktop\SKFGI\BusinessLayer\bin\Debug\Entity.pdb
+C:\Users\hi\Desktop\SKFGI\BusinessLayer\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\hi\Desktop\SKFGI\BusinessLayer\obj\Debug\BusinessLayer.dll
+C:\Users\hi\Desktop\SKFGI\BusinessLayer\obj\Debug\BusinessLayer.pdb
+C:\Users\hi\Desktop\SKFGI\BusinessLayer\bin\Debug\AjaxControlToolkit.dll
+E:\KUNAL\SKFJISuvojitNew\SKFGI\BusinessLayer\bin\Debug\BusinessLayer.dll
+E:\KUNAL\SKFJISuvojitNew\SKFGI\BusinessLayer\bin\Debug\BusinessLayer.pdb
+E:\KUNAL\SKFJISuvojitNew\SKFGI\BusinessLayer\bin\Debug\DataAccess.dll
+E:\KUNAL\SKFJISuvojitNew\SKFGI\BusinessLayer\bin\Debug\Entity.dll
+E:\KUNAL\SKFJISuvojitNew\SKFGI\BusinessLayer\bin\Debug\DataAccess.pdb
+E:\KUNAL\SKFJISuvojitNew\SKFGI\BusinessLayer\bin\Debug\Entity.pdb
+E:\KUNAL\SKFJISuvojitNew\SKFGI\BusinessLayer\obj\Debug\BusinessLayer.csprojResolveAssemblyReference.cache
+E:\KUNAL\SKFJISuvojitNew\SKFGI\BusinessLayer\obj\Debug\BusinessLayer.dll
+E:\KUNAL\SKFJISuvojitNew\SKFGI\BusinessLayer\obj\Debug\BusinessLayer.pdb
+E:\Rajib's Folder\SKFJISuvojitNew[16.07.2016]\SKFGI\BusinessLayer\bin\Debug\BusinessLayer.dll
+E:\Rajib's Folder\SKFJISuvojitNew[16.07.2016]\SKFGI\BusinessLayer\bin\Debug\BusinessLayer.pdb
+E:\Rajib's Folder\SKFJISuvojitNew[16.07.2016]\SKFGI\BusinessLayer\bin\Debug\DataAccess.dll
+E:\Rajib's Folder\SKFJISuvojitNew[16.07.2016]\SKFGI\BusinessLayer\bin\Debug\Entity.dll
+E:\Rajib's Folder\SKFJISuvojitNew[16.07.2016]\SKFGI\BusinessLayer\bin\Debug\DataAccess.pdb
+E:\Rajib's Folder\SKFJISuvojitNew[16.07.2016]\SKFGI\BusinessLayer\bin\Debug\Entity.pdb
+E:\Rajib's Folder\SKFJISuvojitNew[16.07.2016]\SKFGI\BusinessLayer\obj\Debug\BusinessLayer.csprojResolveAssemblyReference.cache
+E:\Rajib's Folder\SKFJISuvojitNew[16.07.2016]\SKFGI\BusinessLayer\obj\Debug\BusinessLayer.dll
+E:\Rajib's Folder\SKFJISuvojitNew[16.07.2016]\SKFGI\BusinessLayer\obj\Debug\BusinessLayer.pdb
+E:\Rajib's Folder\SKFJISuvojitNew[15.05.2017]\SKFGI\BusinessLayer\bin\Debug\BusinessLayer.dll
+E:\Rajib's Folder\SKFJISuvojitNew[15.05.2017]\SKFGI\BusinessLayer\bin\Debug\BusinessLayer.pdb
+E:\Rajib's Folder\SKFJISuvojitNew[15.05.2017]\SKFGI\BusinessLayer\bin\Debug\DataAccess.dll
+E:\Rajib's Folder\SKFJISuvojitNew[15.05.2017]\SKFGI\BusinessLayer\bin\Debug\Entity.dll
+E:\Rajib's Folder\SKFJISuvojitNew[15.05.2017]\SKFGI\BusinessLayer\bin\Debug\DataAccess.pdb
+E:\Rajib's Folder\SKFJISuvojitNew[15.05.2017]\SKFGI\BusinessLayer\bin\Debug\Entity.pdb
+E:\Rajib's Folder\SKFJISuvojitNew[15.05.2017]\SKFGI\BusinessLayer\obj\Debug\BusinessLayer.csprojResolveAssemblyReference.cache
+E:\Rajib's Folder\SKFJISuvojitNew[15.05.2017]\SKFGI\BusinessLayer\obj\Debug\BusinessLayer.dll
+E:\Rajib's Folder\SKFJISuvojitNew[15.05.2017]\SKFGI\BusinessLayer\obj\Debug\BusinessLayer.pdb
+D:\Pritam FFT Projects\SKFGI-ERP\Source Code\SKFGI\BusinessLayer\bin\Debug\BusinessLayer.dll
+D:\Pritam FFT Projects\SKFGI-ERP\Source Code\SKFGI\BusinessLayer\bin\Debug\BusinessLayer.pdb
+D:\Pritam FFT Projects\SKFGI-ERP\Source Code\SKFGI\BusinessLayer\bin\Debug\DataAccess.dll
+D:\Pritam FFT Projects\SKFGI-ERP\Source Code\SKFGI\BusinessLayer\bin\Debug\Entity.dll
+D:\Pritam FFT Projects\SKFGI-ERP\Source Code\SKFGI\BusinessLayer\bin\Debug\DataAccess.pdb
+D:\Pritam FFT Projects\SKFGI-ERP\Source Code\SKFGI\BusinessLayer\bin\Debug\Entity.pdb
+D:\Pritam FFT Projects\SKFGI-ERP\Source Code\SKFGI\BusinessLayer\obj\Debug\BusinessLayer.csprojResolveAssemblyReference.cache
+D:\Pritam FFT Projects\SKFGI-ERP\Source Code\SKFGI\BusinessLayer\obj\Debug\BusinessLayer.dll
+D:\Pritam FFT Projects\SKFGI-ERP\Source Code\SKFGI\BusinessLayer\obj\Debug\BusinessLayer.pdb
+E:\BUSINESS\PROJECTS\SKFGI-ERP\SKFGI\BusinessLayer\bin\Debug\BusinessLayer.dll
+E:\BUSINESS\PROJECTS\SKFGI-ERP\SKFGI\BusinessLayer\bin\Debug\BusinessLayer.pdb
+E:\BUSINESS\PROJECTS\SKFGI-ERP\SKFGI\BusinessLayer\bin\Debug\DataAccess.dll
+E:\BUSINESS\PROJECTS\SKFGI-ERP\SKFGI\BusinessLayer\bin\Debug\Entity.dll
+E:\BUSINESS\PROJECTS\SKFGI-ERP\SKFGI\BusinessLayer\bin\Debug\DataAccess.pdb
+E:\BUSINESS\PROJECTS\SKFGI-ERP\SKFGI\BusinessLayer\bin\Debug\Entity.pdb
+E:\BUSINESS\PROJECTS\SKFGI-ERP\SKFGI\BusinessLayer\obj\Debug\BusinessLayer.csprojResolveAssemblyReference.cache
+E:\BUSINESS\PROJECTS\SKFGI-ERP\SKFGI\BusinessLayer\obj\Debug\BusinessLayer.dll
+E:\BUSINESS\PROJECTS\SKFGI-ERP\SKFGI\BusinessLayer\obj\Debug\BusinessLayer.pdb
+D:\URMI\WORKING\SKFGI\BusinessLayer\bin\Debug\BusinessLayer.dll
+D:\URMI\WORKING\SKFGI\BusinessLayer\bin\Debug\BusinessLayer.pdb
+D:\URMI\WORKING\SKFGI\BusinessLayer\bin\Debug\DataAccess.dll
+D:\URMI\WORKING\SKFGI\BusinessLayer\bin\Debug\Entity.dll
+D:\URMI\WORKING\SKFGI\BusinessLayer\bin\Debug\DataAccess.pdb
+D:\URMI\WORKING\SKFGI\BusinessLayer\bin\Debug\Entity.pdb
+D:\URMI\WORKING\SKFGI\BusinessLayer\obj\Debug\BusinessLayer.csprojResolveAssemblyReference.cache
+D:\URMI\WORKING\SKFGI\BusinessLayer\obj\Debug\BusinessLayer.dll
+D:\URMI\WORKING\SKFGI\BusinessLayer\obj\Debug\BusinessLayer.pdb
+D:\Projects\SKFGI\BusinessLayer\bin\Debug\BusinessLayer.dll
+D:\Projects\SKFGI\BusinessLayer\bin\Debug\BusinessLayer.pdb
+D:\Projects\SKFGI\BusinessLayer\bin\Debug\DataAccess.dll
+D:\Projects\SKFGI\BusinessLayer\bin\Debug\Entity.dll
+D:\Projects\SKFGI\BusinessLayer\bin\Debug\DataAccess.pdb
+D:\Projects\SKFGI\BusinessLayer\bin\Debug\Entity.pdb
+D:\Projects\SKFGI\BusinessLayer\obj\Debug\BusinessLayer.csprojResolveAssemblyReference.cache
+D:\Projects\SKFGI\BusinessLayer\obj\Debug\BusinessLayer.dll
+D:\Projects\SKFGI\BusinessLayer\obj\Debug\BusinessLayer.pdb
+D:\PROJECT BACKUP\SKFGI\BusinessLayer\bin\Debug\BusinessLayer.dll
+D:\PROJECT BACKUP\SKFGI\BusinessLayer\bin\Debug\BusinessLayer.pdb
+D:\PROJECT BACKUP\SKFGI\BusinessLayer\bin\Debug\DataAccess.dll
+D:\PROJECT BACKUP\SKFGI\BusinessLayer\bin\Debug\Entity.dll
+D:\PROJECT BACKUP\SKFGI\BusinessLayer\bin\Debug\DataAccess.pdb
+D:\PROJECT BACKUP\SKFGI\BusinessLayer\bin\Debug\Entity.pdb
+D:\PROJECT BACKUP\SKFGI\BusinessLayer\obj\Debug\BusinessLayer.csprojResolveAssemblyReference.cache
+D:\PROJECT BACKUP\SKFGI\BusinessLayer\obj\Debug\BusinessLayer.dll
+D:\PROJECT BACKUP\SKFGI\BusinessLayer\obj\Debug\BusinessLayer.pdb
+D:\PROJECT BACKUP\BSTM\BusinessLayer\bin\Debug\BusinessLayer.dll
+D:\PROJECT BACKUP\BSTM\BusinessLayer\bin\Debug\BusinessLayer.pdb
+D:\PROJECT BACKUP\BSTM\BusinessLayer\bin\Debug\DataAccess.dll
+D:\PROJECT BACKUP\BSTM\BusinessLayer\bin\Debug\Entity.dll
+D:\PROJECT BACKUP\BSTM\BusinessLayer\bin\Debug\DataAccess.pdb
+D:\PROJECT BACKUP\BSTM\BusinessLayer\bin\Debug\Entity.pdb
+D:\PROJECT BACKUP\BSTM\BusinessLayer\obj\Debug\BusinessLayer.csprojAssemblyReference.cache
+D:\PROJECT BACKUP\BSTM\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+D:\PROJECT BACKUP\BSTM\BusinessLayer\obj\Debug\BusinessLayer.csproj.CopyComplete
+D:\PROJECT BACKUP\BSTM\BusinessLayer\obj\Debug\BusinessLayer.dll
+D:\PROJECT BACKUP\BSTM\BusinessLayer\obj\Debug\BusinessLayer.pdb
+D:\SUpriyo\BSTM\BSTM\BusinessLayer\bin\Debug\BusinessLayer.dll
+D:\SUpriyo\BSTM\BSTM\BusinessLayer\bin\Debug\BusinessLayer.pdb
+D:\SUpriyo\BSTM\BSTM\BusinessLayer\bin\Debug\DataAccess.dll
+D:\SUpriyo\BSTM\BSTM\BusinessLayer\bin\Debug\Entity.dll
+D:\SUpriyo\BSTM\BSTM\BusinessLayer\bin\Debug\DataAccess.pdb
+D:\SUpriyo\BSTM\BSTM\BusinessLayer\bin\Debug\Entity.pdb
+D:\SUpriyo\BSTM\BSTM\BusinessLayer\obj\Debug\BusinessLayer.csprojAssemblyReference.cache
+D:\SUpriyo\BSTM\BSTM\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+D:\SUpriyo\BSTM\BSTM\BusinessLayer\obj\Debug\BusinessLayer.csproj.CopyComplete
+D:\SUpriyo\BSTM\BSTM\BusinessLayer\obj\Debug\BusinessLayer.dll
+D:\SUpriyo\BSTM\BSTM\BusinessLayer\obj\Debug\BusinessLayer.pdb
+D:\Pritam FFT Projects\BSTM\BSTM\BusinessLayer\bin\Debug\BusinessLayer.dll
+D:\Pritam FFT Projects\BSTM\BSTM\BusinessLayer\bin\Debug\BusinessLayer.pdb
+D:\Pritam FFT Projects\BSTM\BSTM\BusinessLayer\bin\Debug\DataAccess.dll
+D:\Pritam FFT Projects\BSTM\BSTM\BusinessLayer\bin\Debug\Entity.dll
+D:\Pritam FFT Projects\BSTM\BSTM\BusinessLayer\bin\Debug\DataAccess.pdb
+D:\Pritam FFT Projects\BSTM\BSTM\BusinessLayer\bin\Debug\Entity.pdb
+D:\Pritam FFT Projects\BSTM\BSTM\BusinessLayer\obj\Debug\BusinessLayer.csprojResolveAssemblyReference.cache
+D:\Pritam FFT Projects\BSTM\BSTM\BusinessLayer\obj\Debug\BusinessLayer.dll
+D:\Pritam FFT Projects\BSTM\BSTM\BusinessLayer\obj\Debug\BusinessLayer.pdb
+E:\BSTM\BusinessLayer\bin\Debug\BusinessLayer.dll
+E:\BSTM\BusinessLayer\bin\Debug\BusinessLayer.pdb
+E:\BSTM\BusinessLayer\bin\Debug\DataAccess.dll
+E:\BSTM\BusinessLayer\bin\Debug\Entity.dll
+E:\BSTM\BusinessLayer\bin\Debug\DataAccess.pdb
+E:\BSTM\BusinessLayer\bin\Debug\Entity.pdb
+E:\BSTM\BusinessLayer\obj\Debug\BusinessLayer.csprojResolveAssemblyReference.cache
+E:\BSTM\BusinessLayer\obj\Debug\BusinessLayer.dll
+E:\BSTM\BusinessLayer\obj\Debug\BusinessLayer.pdb
+E:\LOGICRACK PROJECTS\BSTM\BusinessLayer\bin\Debug\BusinessLayer.dll
+E:\LOGICRACK PROJECTS\BSTM\BusinessLayer\bin\Debug\BusinessLayer.pdb
+E:\LOGICRACK PROJECTS\BSTM\BusinessLayer\bin\Debug\DataAccess.dll
+E:\LOGICRACK PROJECTS\BSTM\BusinessLayer\bin\Debug\Entity.dll
+E:\LOGICRACK PROJECTS\BSTM\BusinessLayer\bin\Debug\DataAccess.pdb
+E:\LOGICRACK PROJECTS\BSTM\BusinessLayer\bin\Debug\Entity.pdb
+E:\LOGICRACK PROJECTS\BSTM\BusinessLayer\obj\Debug\BusinessLayer.csprojResolveAssemblyReference.cache
+E:\LOGICRACK PROJECTS\BSTM\BusinessLayer\obj\Debug\BusinessLayer.dll
+E:\LOGICRACK PROJECTS\BSTM\BusinessLayer\obj\Debug\BusinessLayer.pdb
+E:\Sumana\1. Sumana New\BSTM\BusinessLayer\bin\Debug\BusinessLayer.dll
+E:\Sumana\1. Sumana New\BSTM\BusinessLayer\bin\Debug\BusinessLayer.pdb
+E:\Sumana\1. Sumana New\BSTM\BusinessLayer\bin\Debug\DataAccess.dll
+E:\Sumana\1. Sumana New\BSTM\BusinessLayer\bin\Debug\Entity.dll
+E:\Sumana\1. Sumana New\BSTM\BusinessLayer\bin\Debug\DataAccess.pdb
+E:\Sumana\1. Sumana New\BSTM\BusinessLayer\bin\Debug\Entity.pdb
+E:\Sumana\1. Sumana New\BSTM\BusinessLayer\obj\Debug\BusinessLayer.csprojAssemblyReference.cache
+E:\Sumana\1. Sumana New\BSTM\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+E:\Sumana\1. Sumana New\BSTM\BusinessLayer\obj\Debug\BusinessLayer.csproj.CopyComplete
+E:\Sumana\1. Sumana New\BSTM\BusinessLayer\obj\Debug\BusinessLayer.dll
+E:\Sumana\1. Sumana New\BSTM\BusinessLayer\obj\Debug\BusinessLayer.pdb
+E:\BASIR FFT PROJECTS\BSTM\BusinessLayer\bin\Debug\BusinessLayer.dll
+E:\BASIR FFT PROJECTS\BSTM\BusinessLayer\bin\Debug\BusinessLayer.pdb
+E:\BASIR FFT PROJECTS\BSTM\BusinessLayer\bin\Debug\DataAccess.dll
+E:\BASIR FFT PROJECTS\BSTM\BusinessLayer\bin\Debug\Entity.dll
+E:\BASIR FFT PROJECTS\BSTM\BusinessLayer\bin\Debug\DataAccess.pdb
+E:\BASIR FFT PROJECTS\BSTM\BusinessLayer\bin\Debug\Entity.pdb
+E:\BASIR FFT PROJECTS\BSTM\BusinessLayer\obj\Debug\BusinessLayer.csprojAssemblyReference.cache
+E:\BASIR FFT PROJECTS\BSTM\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+E:\BASIR FFT PROJECTS\BSTM\BusinessLayer\obj\Debug\BusinessLayer.csproj.CopyComplete
+E:\BASIR FFT PROJECTS\BSTM\BusinessLayer\obj\Debug\BusinessLayer.dll
+E:\BASIR FFT PROJECTS\BSTM\BusinessLayer\obj\Debug\BusinessLayer.pdb
+D:\BSTM\BSTM\BusinessLayer\bin\Debug\BusinessLayer.dll
+D:\BSTM\BSTM\BusinessLayer\bin\Debug\BusinessLayer.pdb
+D:\BSTM\BSTM\BusinessLayer\bin\Debug\DataAccess.dll
+D:\BSTM\BSTM\BusinessLayer\bin\Debug\Entity.dll
+D:\BSTM\BSTM\BusinessLayer\bin\Debug\DataAccess.pdb
+D:\BSTM\BSTM\BusinessLayer\bin\Debug\Entity.pdb
+D:\BSTM\BSTM\BusinessLayer\obj\Debug\BusinessLayer.csprojAssemblyReference.cache
+D:\BSTM\BSTM\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+D:\BSTM\BSTM\BusinessLayer\obj\Debug\BusinessLayer.csproj.CopyComplete
+D:\BSTM\BSTM\BusinessLayer\obj\Debug\BusinessLayer.dll
+D:\BSTM\BSTM\BusinessLayer\obj\Debug\BusinessLayer.pdb
+C:\Users\user\Desktop\BSTM\BSTM\BSTM\BusinessLayer\bin\Debug\BusinessLayer.dll
+C:\Users\user\Desktop\BSTM\BSTM\BSTM\BusinessLayer\bin\Debug\BusinessLayer.pdb
+C:\Users\user\Desktop\BSTM\BSTM\BSTM\BusinessLayer\bin\Debug\DataAccess.dll
+C:\Users\user\Desktop\BSTM\BSTM\BSTM\BusinessLayer\bin\Debug\Entity.dll
+C:\Users\user\Desktop\BSTM\BSTM\BSTM\BusinessLayer\bin\Debug\DataAccess.pdb
+C:\Users\user\Desktop\BSTM\BSTM\BSTM\BusinessLayer\bin\Debug\Entity.pdb
+C:\Users\user\Desktop\BSTM\BSTM\BSTM\BusinessLayer\obj\Debug\BusinessLayer.csprojAssemblyReference.cache
+C:\Users\user\Desktop\BSTM\BSTM\BSTM\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\BSTM\BSTM\BSTM\BusinessLayer\obj\Debug\BusinessLayer.csproj.CopyComplete
+C:\Users\user\Desktop\BSTM\BSTM\BSTM\BusinessLayer\obj\Debug\BusinessLayer.dll
+C:\Users\user\Desktop\BSTM\BSTM\BSTM\BusinessLayer\obj\Debug\BusinessLayer.pdb
+D:\BSTM_By BAIDYA\BSTM\Source Code\BusinessLayer\bin\Debug\BusinessLayer.dll
+D:\BSTM_By BAIDYA\BSTM\Source Code\BusinessLayer\bin\Debug\BusinessLayer.pdb
+D:\BSTM_By BAIDYA\BSTM\Source Code\BusinessLayer\bin\Debug\DataAccess.dll
+D:\BSTM_By BAIDYA\BSTM\Source Code\BusinessLayer\bin\Debug\Entity.dll
+D:\BSTM_By BAIDYA\BSTM\Source Code\BusinessLayer\bin\Debug\DataAccess.pdb
+D:\BSTM_By BAIDYA\BSTM\Source Code\BusinessLayer\bin\Debug\Entity.pdb
+D:\BSTM_By BAIDYA\BSTM\Source Code\BusinessLayer\obj\Debug\BusinessLayer.csprojAssemblyReference.cache
+D:\BSTM_By BAIDYA\BSTM\Source Code\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+D:\BSTM_By BAIDYA\BSTM\Source Code\BusinessLayer\obj\Debug\BusinessLayer.csproj.CopyComplete
+D:\BSTM_By BAIDYA\BSTM\Source Code\BusinessLayer\obj\Debug\BusinessLayer.dll
+D:\BSTM_By BAIDYA\BSTM\Source Code\BusinessLayer\obj\Debug\BusinessLayer.pdb
+C:\Logicrack\Logicrack_Project\BSTM_LATEST\BusinessLayer\bin\Debug\BusinessLayer.dll
+C:\Logicrack\Logicrack_Project\BSTM_LATEST\BusinessLayer\bin\Debug\BusinessLayer.pdb
+C:\Logicrack\Logicrack_Project\BSTM_LATEST\BusinessLayer\bin\Debug\DataAccess.dll
+C:\Logicrack\Logicrack_Project\BSTM_LATEST\BusinessLayer\bin\Debug\Entity.dll
+C:\Logicrack\Logicrack_Project\BSTM_LATEST\BusinessLayer\bin\Debug\DataAccess.pdb
+C:\Logicrack\Logicrack_Project\BSTM_LATEST\BusinessLayer\bin\Debug\Entity.pdb
+C:\Logicrack\Logicrack_Project\BSTM_LATEST\BusinessLayer\obj\Debug\BusinessLayer.csprojAssemblyReference.cache
+C:\Logicrack\Logicrack_Project\BSTM_LATEST\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Logicrack\Logicrack_Project\BSTM_LATEST\BusinessLayer\obj\Debug\BusinessLayer.csproj.CopyComplete
+C:\Logicrack\Logicrack_Project\BSTM_LATEST\BusinessLayer\obj\Debug\BusinessLayer.dll
+C:\Logicrack\Logicrack_Project\BSTM_LATEST\BusinessLayer\obj\Debug\BusinessLayer.pdb

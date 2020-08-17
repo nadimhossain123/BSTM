@@ -1,0 +1,19 @@
+D:\Pritam FFT Projects\SKFGI-ERP\Source Code\SKFGI\Entity\bin\Release\Entity.dll
+D:\Pritam FFT Projects\SKFGI-ERP\Source Code\SKFGI\Entity\bin\Release\Entity.pdb
+D:\Pritam FFT Projects\SKFGI-ERP\Source Code\SKFGI\Entity\obj\Release\Entity.dll
+D:\Pritam FFT Projects\SKFGI-ERP\Source Code\SKFGI\Entity\obj\Release\Entity.pdb
+D:\URMI\WORKING\SKFGI\Entity\bin\Release\Entity.dll
+D:\URMI\WORKING\SKFGI\Entity\bin\Release\Entity.pdb
+D:\URMI\WORKING\SKFGI\Entity\obj\Release\Entity.csprojResolveAssemblyReference.cache
+D:\URMI\WORKING\SKFGI\Entity\obj\Release\Entity.dll
+D:\URMI\WORKING\SKFGI\Entity\obj\Release\Entity.pdb
+D:\RUNNING PROJECT\BSTM\BSTM\Entity\bin\Release\Entity.dll
+D:\RUNNING PROJECT\BSTM\BSTM\Entity\bin\Release\Entity.pdb
+D:\RUNNING PROJECT\BSTM\BSTM\Entity\obj\Release\Entity.csproj.CoreCompileInputs.cache
+D:\RUNNING PROJECT\BSTM\BSTM\Entity\obj\Release\Entity.dll
+D:\RUNNING PROJECT\BSTM\BSTM\Entity\obj\Release\Entity.pdb
+E:\LOGICRACK PROJECTS\BSTM\Entity\bin\Release\Entity.dll
+E:\LOGICRACK PROJECTS\BSTM\Entity\bin\Release\Entity.pdb
+E:\LOGICRACK PROJECTS\BSTM\Entity\obj\Release\Entity.csprojResolveAssemblyReference.cache
+E:\LOGICRACK PROJECTS\BSTM\Entity\obj\Release\Entity.dll
+E:\LOGICRACK PROJECTS\BSTM\Entity\obj\Release\Entity.pdb
