@@ -1051,6 +1051,7 @@ namespace CollegeERP.Student
                 RDBLateral.SelectedValue = "False";
                 RdbHostelFacility.SelectedValue = "False";
                 DDLTFW.SelectedValue = "False";
+                ddlBatch.SelectedValue = "16";
             }
 
             ImgPhoto.ImageUrl = "StudentPhoto/Male.jpg";

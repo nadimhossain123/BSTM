@@ -205,3 +205,14 @@ C:\Logicrack\Logicrack_Project\BSTM_LATEST\BusinessLayer\obj\Debug\BusinessLayer
 C:\Logicrack\Logicrack_Project\BSTM_LATEST\BusinessLayer\obj\Debug\BusinessLayer.csproj.CopyComplete
 C:\Logicrack\Logicrack_Project\BSTM_LATEST\BusinessLayer\obj\Debug\BusinessLayer.dll
 C:\Logicrack\Logicrack_Project\BSTM_LATEST\BusinessLayer\obj\Debug\BusinessLayer.pdb
+C:\GitHubProjects\BSTM\BusinessLayer\bin\Debug\BusinessLayer.dll
+C:\GitHubProjects\BSTM\BusinessLayer\bin\Debug\BusinessLayer.pdb
+C:\GitHubProjects\BSTM\BusinessLayer\bin\Debug\DataAccess.dll
+C:\GitHubProjects\BSTM\BusinessLayer\bin\Debug\Entity.dll
+C:\GitHubProjects\BSTM\BusinessLayer\bin\Debug\DataAccess.pdb
+C:\GitHubProjects\BSTM\BusinessLayer\bin\Debug\Entity.pdb
+C:\GitHubProjects\BSTM\BusinessLayer\obj\Debug\BusinessLayer.csprojAssemblyReference.cache
+C:\GitHubProjects\BSTM\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\GitHubProjects\BSTM\BusinessLayer\obj\Debug\BusinessLayer.csproj.CopyComplete
+C:\GitHubProjects\BSTM\BusinessLayer\obj\Debug\BusinessLayer.dll
+C:\GitHubProjects\BSTM\BusinessLayer\obj\Debug\BusinessLayer.pdb

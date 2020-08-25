@@ -152,6 +152,13 @@ namespace CollegeERP.UserControl
                 //PURCHASE ORDER
                 liPO.Visible = HttpContext.Current.User.IsInRole(Entity.Common.Utility.PURCHASE_ORDER);
                 liPOEntry.Visible = HttpContext.Current.User.IsInRole(Entity.Common.Utility.PURCHASE_ORDER_ENTRY);
+
+
+                //Diploma Registration is now only for BST
+                if (Session["CompanyId"].ToString() == "2")
+                    liDiplomaReg.Visible = true;
+                else
+                    liDiplomaReg.Visible = false;
             }
         }
     }

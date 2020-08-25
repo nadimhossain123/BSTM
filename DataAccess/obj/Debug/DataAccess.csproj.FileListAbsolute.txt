@@ -161,3 +161,12 @@ C:\Logicrack\Logicrack_Project\BSTM_LATEST\DataAccess\obj\Debug\DataAccess.cspro
 C:\Logicrack\Logicrack_Project\BSTM_LATEST\DataAccess\obj\Debug\DataAccess.csproj.CopyComplete
 C:\Logicrack\Logicrack_Project\BSTM_LATEST\DataAccess\obj\Debug\DataAccess.dll
 C:\Logicrack\Logicrack_Project\BSTM_LATEST\DataAccess\obj\Debug\DataAccess.pdb
+C:\GitHubProjects\BSTM\DataAccess\bin\Debug\DataAccess.dll
+C:\GitHubProjects\BSTM\DataAccess\bin\Debug\DataAccess.pdb
+C:\GitHubProjects\BSTM\DataAccess\bin\Debug\Entity.dll
+C:\GitHubProjects\BSTM\DataAccess\bin\Debug\Entity.pdb
+C:\GitHubProjects\BSTM\DataAccess\obj\Debug\DataAccess.csprojAssemblyReference.cache
+C:\GitHubProjects\BSTM\DataAccess\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
+C:\GitHubProjects\BSTM\DataAccess\obj\Debug\DataAccess.csproj.CopyComplete
+C:\GitHubProjects\BSTM\DataAccess\obj\Debug\DataAccess.dll
+C:\GitHubProjects\BSTM\DataAccess\obj\Debug\DataAccess.pdb

@@ -312,14 +312,15 @@ namespace CollegeERP.Student
                 eAps.CompanyID_FK = BusinessLayer.Common.Company.GetCompanyId("BST");
             else if (CourseId == 3)
                 eAps.CompanyID_FK = BusinessLayer.Common.Company.GetCompanyId("BST");
-
+            else if (CourseId == 4)
+                eAps.CompanyID_FK = BusinessLayer.Common.Company.GetCompanyId("BST");
             //else if (CourseId == 4)
             //    eAps.CompanyID_FK = BusinessLayer.Common.Company.GetCompanyId("BST-BPHARM");
             //    //eAps.CompanyID_FK = BusinessLayer.Common.Company.GetCompanyId("Diploma");
             //else
             //    eAps.CompanyID_FK = BusinessLayer.Common.Company.GetCompanyId("BST-MPHARM");
             //    //eAps.CompanyID_FK = BusinessLayer.Common.Company.GetCompanyId("Engineering");
-            
+
 
             eAps.BranchID_FK = Convert.ToInt32(Session["BranchId"].ToString());
             eAps.FinYearID_FK = Convert.ToInt32(Session["FinYrID"].ToString());

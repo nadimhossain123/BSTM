@@ -92,3 +92,9 @@ C:\Logicrack\Logicrack_Project\BSTM_LATEST\Entity\obj\Debug\Entity.csprojAssembl
 C:\Logicrack\Logicrack_Project\BSTM_LATEST\Entity\obj\Debug\Entity.csproj.CoreCompileInputs.cache
 C:\Logicrack\Logicrack_Project\BSTM_LATEST\Entity\obj\Debug\Entity.dll
 C:\Logicrack\Logicrack_Project\BSTM_LATEST\Entity\obj\Debug\Entity.pdb
+C:\GitHubProjects\BSTM\Entity\bin\Debug\Entity.dll
+C:\GitHubProjects\BSTM\Entity\bin\Debug\Entity.pdb
+C:\GitHubProjects\BSTM\Entity\obj\Debug\Entity.csprojAssemblyReference.cache
+C:\GitHubProjects\BSTM\Entity\obj\Debug\Entity.csproj.CoreCompileInputs.cache
+C:\GitHubProjects\BSTM\Entity\obj\Debug\Entity.dll
+C:\GitHubProjects\BSTM\Entity\obj\Debug\Entity.pdb

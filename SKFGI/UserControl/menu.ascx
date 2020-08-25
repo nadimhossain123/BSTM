@@ -46,7 +46,7 @@
             <li id="liStudentSubjectMapping" runat="server" class="last"><a href="/Student/StudentSubjectMapping.aspx">Student Subject Mapping</a></li>   
                         </ul>
                 </li>
-            <li id="liDiplomaReg" runat="server" style="display:none"><a href="/Student/DiplomaRegistration.aspx">Diploma Registration</a></li> 
+            <li id="liDiplomaReg" runat="server"><a href="/Student/DiplomaRegistration.aspx">Diploma Registration</a></li> 
             <li id="liMBAReg" runat="server"><a href="/Student/MBARegistration.aspx">BSTM
                 Registration</a></li>
             <li id="liBtechReg" runat="server"><a href="/Student/BTechRegistration.aspx">BST BPHARM
@@ -54,6 +54,7 @@
             
             <li id="liMTechReg" runat="server"><a href="/Student/MTechRegistration.aspx">BST MPHARM
                 Registration</a></li>
+          
             <li id="liNewStudentAdmissionReport" runat="server"><a href="/Student/NewAdmissionReport.aspx">
                 New Student Admission Report</a></li>
             <li id="liFeesHeadMaster" runat="server"><a href="/Student/FeesHeadMaster.aspx">Fees

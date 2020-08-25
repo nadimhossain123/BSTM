@@ -18,7 +18,7 @@
             if (!checkforvaliddata(eval('document.forms[0].' + '<%=ddlDistrict.ClientID%>'), "District", 0)) return false;
             if (!checkforvaliddata(eval('document.forms[0].' + '<%=ddlCity.ClientID%>'), "City", 0)) return false;
             if (!checkforvaliddata(eval('document.forms[0].' + '<%=txtpin.ClientID%>'), "Pin", 1)) return false;
-            if (!checkforvaliddata(eval('document.forms[0].' + '<%=ddlSchool.ClientID%>'), "School/College", 0)) return false;
+            <%--if (!checkforvaliddata(eval('document.forms[0].' + '<%=ddlSchool.ClientID%>'), "School/College", 0)) return false;--%>
             return confirm('Are You Sure?');
 
         }

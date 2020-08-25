@@ -284,6 +284,9 @@ namespace CollegeERP.Student
                 case "ME":
                     lblStreamApplied.Text = "ME(Mechanical Engineering)";
                     break;
+                case "EE":
+                    lblStreamApplied.Text = "EE(Electrical Engineering)";
+                    break;
             }
         }
         //End of Stream Name Function

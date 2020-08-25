@@ -7,11 +7,13 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace CollegeERP.UserControl {
-    
-    
-    public partial class menu {
-        
+namespace CollegeERP.UserControl
+{
+
+
+    public partial class menu
+    {
+
         /// <summary>
         /// liSettings control.
         /// </summary>
@@ -20,7 +22,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liSettings;
-        
+
         /// <summary>
         /// liCompanyConfig control.
         /// </summary>
@@ -29,7 +31,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liCompanyConfig;
-        
+
         /// <summary>
         /// liCreateFnYear control.
         /// </summary>
@@ -38,7 +40,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liCreateFnYear;
-        
+
         /// <summary>
         /// liDbBackupRestore control.
         /// </summary>
@@ -47,7 +49,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liDbBackupRestore;
-        
+
         /// <summary>
         /// liLeaveApplicationConfig control.
         /// </summary>
@@ -56,7 +58,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liLeaveApplicationConfig;
-        
+
         /// <summary>
         /// liChangeCompany control.
         /// </summary>
@@ -65,7 +67,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liChangeCompany;
-        
+
         /// <summary>
         /// liStateMaster control.
         /// </summary>
@@ -74,7 +76,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liStateMaster;
-        
+
         /// <summary>
         /// liDistrictMaster control.
         /// </summary>
@@ -83,7 +85,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liDistrictMaster;
-        
+
         /// <summary>
         /// liCityMaster control.
         /// </summary>
@@ -92,7 +94,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liCityMaster;
-        
+
         /// <summary>
         /// liSchoolMaster control.
         /// </summary>
@@ -101,7 +103,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liSchoolMaster;
-        
+
         /// <summary>
         /// liStudent control.
         /// </summary>
@@ -110,7 +112,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liStudent;
-        
+
         /// <summary>
         /// liAllStudent control.
         /// </summary>
@@ -119,7 +121,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liAllStudent;
-        
+
         /// <summary>
         /// liAttendence control.
         /// </summary>
@@ -128,7 +130,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liAttendence;
-        
+
         /// <summary>
         /// liStudentAttendance control.
         /// </summary>
@@ -137,7 +139,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liStudentAttendance;
-        
+
         /// <summary>
         /// liTeacherSubjectMapping control.
         /// </summary>
@@ -146,7 +148,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liTeacherSubjectMapping;
-        
+
         /// <summary>
         /// liStudentAttendanceReport control.
         /// </summary>
@@ -155,7 +157,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liStudentAttendanceReport;
-        
+
         /// <summary>
         /// liStudentSectionMapping control.
         /// </summary>
@@ -164,7 +166,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liStudentSectionMapping;
-        
+
         /// <summary>
         /// liStudentSubjectMapping control.
         /// </summary>
@@ -173,7 +175,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liStudentSubjectMapping;
-        
+
         /// <summary>
         /// liDiplomaReg control.
         /// </summary>
@@ -182,7 +184,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liDiplomaReg;
-        
+
         /// <summary>
         /// liMBAReg control.
         /// </summary>
@@ -191,7 +193,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liMBAReg;
-        
+
         /// <summary>
         /// liBtechReg control.
         /// </summary>
@@ -200,7 +202,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liBtechReg;
-        
+
         /// <summary>
         /// liMTechReg control.
         /// </summary>
@@ -209,7 +211,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liMTechReg;
-        
+
         /// <summary>
         /// liNewStudentAdmissionReport control.
         /// </summary>
@@ -218,7 +220,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liNewStudentAdmissionReport;
-        
+
         /// <summary>
         /// liFeesHeadMaster control.
         /// </summary>
@@ -227,7 +229,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liFeesHeadMaster;
-        
+
         /// <summary>
         /// liFees control.
         /// </summary>
@@ -236,7 +238,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liFees;
-        
+
         /// <summary>
         /// liAllFees control.
         /// </summary>
@@ -245,7 +247,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liAllFees;
-        
+
         /// <summary>
         /// liHostelFees control.
         /// </summary>
@@ -254,7 +256,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liHostelFees;
-        
+
         /// <summary>
         /// liApproveStudent control.
         /// </summary>
@@ -263,7 +265,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liApproveStudent;
-        
+
         /// <summary>
         /// liUserBaseApproveRejectReport control.
         /// </summary>
@@ -272,7 +274,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liUserBaseApproveRejectReport;
-        
+
         /// <summary>
         /// li2 control.
         /// </summary>
@@ -281,7 +283,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl li2;
-        
+
         /// <summary>
         /// li4 control.
         /// </summary>
@@ -290,7 +292,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl li4;
-        
+
         /// <summary>
         /// liLibraryFine control.
         /// </summary>
@@ -299,7 +301,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liLibraryFine;
-        
+
         /// <summary>
         /// liSemFeesGenaration control.
         /// </summary>
@@ -308,7 +310,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liSemFeesGenaration;
-        
+
         /// <summary>
         /// liHostelFeesGeneration control.
         /// </summary>
@@ -317,7 +319,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liHostelFeesGeneration;
-        
+
         /// <summary>
         /// liStudentCreditBillEntry control.
         /// </summary>
@@ -326,7 +328,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liStudentCreditBillEntry;
-        
+
         /// <summary>
         /// liStreamMaster control.
         /// </summary>
@@ -335,7 +337,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liStreamMaster;
-        
+
         /// <summary>
         /// liStudentPromotion control.
         /// </summary>
@@ -344,7 +346,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liStudentPromotion;
-        
+
         /// <summary>
         /// liStudentDropOut control.
         /// </summary>
@@ -353,7 +355,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liStudentDropOut;
-        
+
         /// <summary>
         /// liStudentBillEntry control.
         /// </summary>
@@ -362,7 +364,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liStudentBillEntry;
-        
+
         /// <summary>
         /// liSubjectMaster control.
         /// </summary>
@@ -371,7 +373,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liSubjectMaster;
-        
+
         /// <summary>
         /// liPayroll control.
         /// </summary>
@@ -380,7 +382,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liPayroll;
-        
+
         /// <summary>
         /// liStatutorySalaryConfig control.
         /// </summary>
@@ -389,7 +391,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liStatutorySalaryConfig;
-        
+
         /// <summary>
         /// liHoliday control.
         /// </summary>
@@ -398,7 +400,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liHoliday;
-        
+
         /// <summary>
         /// liPTaxSlabFixation control.
         /// </summary>
@@ -407,7 +409,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liPTaxSlabFixation;
-        
+
         /// <summary>
         /// liPayband control.
         /// </summary>
@@ -416,7 +418,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liPayband;
-        
+
         /// <summary>
         /// liEmployeeSalarySetting control.
         /// </summary>
@@ -425,7 +427,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liEmployeeSalarySetting;
-        
+
         /// <summary>
         /// liEmployeeAdditionalHeadSetting control.
         /// </summary>
@@ -434,7 +436,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liEmployeeAdditionalHeadSetting;
-        
+
         /// <summary>
         /// liEmployeeDeductionSetting control.
         /// </summary>
@@ -443,7 +445,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liEmployeeDeductionSetting;
-        
+
         /// <summary>
         /// liLoan control.
         /// </summary>
@@ -452,7 +454,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liLoan;
-        
+
         /// <summary>
         /// liMonthlySalaryGeneration control.
         /// </summary>
@@ -461,7 +463,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liMonthlySalaryGeneration;
-        
+
         /// <summary>
         /// liPaySlip control.
         /// </summary>
@@ -470,7 +472,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liPaySlip;
-        
+
         /// <summary>
         /// liAllEmployeesPaySlip control.
         /// </summary>
@@ -479,7 +481,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liAllEmployeesPaySlip;
-        
+
         /// <summary>
         /// liIndividualSalaryDetails control.
         /// </summary>
@@ -488,7 +490,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liIndividualSalaryDetails;
-        
+
         /// <summary>
         /// liPFRegister control.
         /// </summary>
@@ -497,7 +499,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liPFRegister;
-        
+
         /// <summary>
         /// liESIRegister control.
         /// </summary>
@@ -506,7 +508,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liESIRegister;
-        
+
         /// <summary>
         /// liPTaxRegister control.
         /// </summary>
@@ -515,7 +517,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liPTaxRegister;
-        
+
         /// <summary>
         /// liPTaxDetailsReport control.
         /// </summary>
@@ -524,7 +526,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liPTaxDetailsReport;
-        
+
         /// <summary>
         /// liPTaxSummeryReport control.
         /// </summary>
@@ -533,7 +535,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liPTaxSummeryReport;
-        
+
         /// <summary>
         /// liSalaryHeadUpdation control.
         /// </summary>
@@ -542,7 +544,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liSalaryHeadUpdation;
-        
+
         /// <summary>
         /// liEmployeeIncrementList control.
         /// </summary>
@@ -551,7 +553,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liEmployeeIncrementList;
-        
+
         /// <summary>
         /// liIncrementReport control.
         /// </summary>
@@ -560,7 +562,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liIncrementReport;
-        
+
         /// <summary>
         /// liPTaxChallan control.
         /// </summary>
@@ -569,7 +571,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liPTaxChallan;
-        
+
         /// <summary>
         /// liTDSChallan control.
         /// </summary>
@@ -578,7 +580,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liTDSChallan;
-        
+
         /// <summary>
         /// liIncomeTax control.
         /// </summary>
@@ -587,7 +589,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liIncomeTax;
-        
+
         /// <summary>
         /// liGenarateForm16 control.
         /// </summary>
@@ -596,7 +598,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liGenarateForm16;
-        
+
         /// <summary>
         /// liViewForm16 control.
         /// </summary>
@@ -605,7 +607,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liViewForm16;
-        
+
         /// <summary>
         /// liITEmpCntr control.
         /// </summary>
@@ -614,7 +616,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liITEmpCntr;
-        
+
         /// <summary>
         /// liInvestmentHead control.
         /// </summary>
@@ -623,7 +625,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liInvestmentHead;
-        
+
         /// <summary>
         /// liPrevEmplHead control.
         /// </summary>
@@ -632,7 +634,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liPrevEmplHead;
-        
+
         /// <summary>
         /// liEmployeePrevEmplDetails control.
         /// </summary>
@@ -641,7 +643,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liEmployeePrevEmplDetails;
-        
+
         /// <summary>
         /// liSectionMaster control.
         /// </summary>
@@ -650,7 +652,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liSectionMaster;
-        
+
         /// <summary>
         /// liHR control.
         /// </summary>
@@ -659,7 +661,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liHR;
-        
+
         /// <summary>
         /// liEmployeeInformation control.
         /// </summary>
@@ -668,7 +670,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liEmployeeInformation;
-        
+
         /// <summary>
         /// liEmployeeDetail control.
         /// </summary>
@@ -677,7 +679,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liEmployeeDetail;
-        
+
         /// <summary>
         /// liEmpIndividualReport control.
         /// </summary>
@@ -686,7 +688,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liEmpIndividualReport;
-        
+
         /// <summary>
         /// liRoleAccessLevel control.
         /// </summary>
@@ -695,7 +697,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liRoleAccessLevel;
-        
+
         /// <summary>
         /// liImportAttendance control.
         /// </summary>
@@ -704,7 +706,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liImportAttendance;
-        
+
         /// <summary>
         /// liClaim control.
         /// </summary>
@@ -713,7 +715,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liClaim;
-        
+
         /// <summary>
         /// liClaimSetting control.
         /// </summary>
@@ -722,7 +724,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liClaimSetting;
-        
+
         /// <summary>
         /// liClaimApply control.
         /// </summary>
@@ -731,7 +733,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liClaimApply;
-        
+
         /// <summary>
         /// liClaimRequest control.
         /// </summary>
@@ -740,7 +742,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liClaimRequest;
-        
+
         /// <summary>
         /// liDirectorClaimApproval control.
         /// </summary>
@@ -749,7 +751,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liDirectorClaimApproval;
-        
+
         /// <summary>
         /// liLeave control.
         /// </summary>
@@ -758,7 +760,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liLeave;
-        
+
         /// <summary>
         /// liLeaveSetting control.
         /// </summary>
@@ -767,7 +769,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liLeaveSetting;
-        
+
         /// <summary>
         /// liLeaveStockUpdate control.
         /// </summary>
@@ -776,7 +778,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liLeaveStockUpdate;
-        
+
         /// <summary>
         /// liLeaveApply control.
         /// </summary>
@@ -785,7 +787,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liLeaveApply;
-        
+
         /// <summary>
         /// liDirectLeaveEntry control.
         /// </summary>
@@ -794,7 +796,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liDirectLeaveEntry;
-        
+
         /// <summary>
         /// liLeaveRequest control.
         /// </summary>
@@ -803,7 +805,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liLeaveRequest;
-        
+
         /// <summary>
         /// liLeaveManagerChange control.
         /// </summary>
@@ -812,7 +814,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liLeaveManagerChange;
-        
+
         /// <summary>
         /// liDirectorLeaveApproval control.
         /// </summary>
@@ -821,7 +823,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liDirectorLeaveApproval;
-        
+
         /// <summary>
         /// li5 control.
         /// </summary>
@@ -830,7 +832,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl li5;
-        
+
         /// <summary>
         /// liLeaveReport control.
         /// </summary>
@@ -839,7 +841,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liLeaveReport;
-        
+
         /// <summary>
         /// liLeaveBalanceReport control.
         /// </summary>
@@ -848,7 +850,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liLeaveBalanceReport;
-        
+
         /// <summary>
         /// liAccounts control.
         /// </summary>
@@ -857,7 +859,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liAccounts;
-        
+
         /// <summary>
         /// liAccountsMaster control.
         /// </summary>
@@ -866,7 +868,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liAccountsMaster;
-        
+
         /// <summary>
         /// liGroupType control.
         /// </summary>
@@ -875,7 +877,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liGroupType;
-        
+
         /// <summary>
         /// liGroup control.
         /// </summary>
@@ -884,7 +886,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liGroup;
-        
+
         /// <summary>
         /// liGeneralLedger control.
         /// </summary>
@@ -893,7 +895,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liGeneralLedger;
-        
+
         /// <summary>
         /// liCostCentre control.
         /// </summary>
@@ -902,7 +904,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liCostCentre;
-        
+
         /// <summary>
         /// liBankAccount control.
         /// </summary>
@@ -911,7 +913,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liBankAccount;
-        
+
         /// <summary>
         /// liReport control.
         /// </summary>
@@ -920,7 +922,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liReport;
-        
+
         /// <summary>
         /// liRPTGeneralLedger control.
         /// </summary>
@@ -929,7 +931,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liRPTGeneralLedger;
-        
+
         /// <summary>
         /// liRPTGeneralLedgerBalance control.
         /// </summary>
@@ -938,7 +940,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liRPTGeneralLedgerBalance;
-        
+
         /// <summary>
         /// liRPTLedger control.
         /// </summary>
@@ -947,7 +949,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liRPTLedger;
-        
+
         /// <summary>
         /// liCashBookReport control.
         /// </summary>
@@ -956,7 +958,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liCashBookReport;
-        
+
         /// <summary>
         /// liRPTBrs control.
         /// </summary>
@@ -965,7 +967,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liRPTBrs;
-        
+
         /// <summary>
         /// liRPTJournalRegister control.
         /// </summary>
@@ -974,7 +976,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liRPTJournalRegister;
-        
+
         /// <summary>
         /// liRPTCashBankVoucher control.
         /// </summary>
@@ -983,7 +985,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liRPTCashBankVoucher;
-        
+
         /// <summary>
         /// liRPTUserBaseCashBankVoucher control.
         /// </summary>
@@ -992,7 +994,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liRPTUserBaseCashBankVoucher;
-        
+
         /// <summary>
         /// liRPTContraVoucher control.
         /// </summary>
@@ -1001,7 +1003,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liRPTContraVoucher;
-        
+
         /// <summary>
         /// liStudentOutstandingReport control.
         /// </summary>
@@ -1010,7 +1012,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liStudentOutstandingReport;
-        
+
         /// <summary>
         /// liStudentConsolidatedOutstandingReport control.
         /// </summary>
@@ -1019,7 +1021,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liStudentConsolidatedOutstandingReport;
-        
+
         /// <summary>
         /// liStudentCautionMoneySummaryReport control.
         /// </summary>
@@ -1028,7 +1030,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liStudentCautionMoneySummaryReport;
-        
+
         /// <summary>
         /// liStudentCautionMoneyIndividualReport control.
         /// </summary>
@@ -1037,7 +1039,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liStudentCautionMoneyIndividualReport;
-        
+
         /// <summary>
         /// liRPTBillPayment control.
         /// </summary>
@@ -1046,7 +1048,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liRPTBillPayment;
-        
+
         /// <summary>
         /// liRPTTrailBalance control.
         /// </summary>
@@ -1055,7 +1057,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liRPTTrailBalance;
-        
+
         /// <summary>
         /// liBalanceSheet control.
         /// </summary>
@@ -1064,7 +1066,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liBalanceSheet;
-        
+
         /// <summary>
         /// liRPTCostCenterWiseReport control.
         /// </summary>
@@ -1073,7 +1075,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liRPTCostCenterWiseReport;
-        
+
         /// <summary>
         /// liRPTStudentFeesCollection control.
         /// </summary>
@@ -1082,7 +1084,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liRPTStudentFeesCollection;
-        
+
         /// <summary>
         /// li control.
         /// </summary>
@@ -1091,7 +1093,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl li;
-        
+
         /// <summary>
         /// liCashBankVoucherEntry control.
         /// </summary>
@@ -1100,7 +1102,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liCashBankVoucherEntry;
-        
+
         /// <summary>
         /// liJournalVoucher control.
         /// </summary>
@@ -1109,7 +1111,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liJournalVoucher;
-        
+
         /// <summary>
         /// liStudentJournal control.
         /// </summary>
@@ -1118,7 +1120,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liStudentJournal;
-        
+
         /// <summary>
         /// liContraVoucher control.
         /// </summary>
@@ -1127,7 +1129,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liContraVoucher;
-        
+
         /// <summary>
         /// liBankReconsiliation control.
         /// </summary>
@@ -1136,7 +1138,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liBankReconsiliation;
-        
+
         /// <summary>
         /// liPurchaseOrder control.
         /// </summary>
@@ -1145,7 +1147,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liPurchaseOrder;
-        
+
         /// <summary>
         /// liTrialBalance control.
         /// </summary>
@@ -1154,7 +1156,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liTrialBalance;
-        
+
         /// <summary>
         /// liStudentFees control.
         /// </summary>
@@ -1163,7 +1165,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liStudentFees;
-        
+
         /// <summary>
         /// liStudentBillDetails control.
         /// </summary>
@@ -1172,7 +1174,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liStudentBillDetails;
-        
+
         /// <summary>
         /// liStudentPaymentDetails control.
         /// </summary>
@@ -1181,7 +1183,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liStudentPaymentDetails;
-        
+
         /// <summary>
         /// liStudentAdvanceRefund control.
         /// </summary>
@@ -1190,7 +1192,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liStudentAdvanceRefund;
-        
+
         /// <summary>
         /// liCautionMoneyRefund control.
         /// </summary>
@@ -1199,7 +1201,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liCautionMoneyRefund;
-        
+
         /// <summary>
         /// li3 control.
         /// </summary>
@@ -1208,7 +1210,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl li3;
-        
+
         /// <summary>
         /// liFundTransfer control.
         /// </summary>
@@ -1217,7 +1219,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liFundTransfer;
-        
+
         /// <summary>
         /// liExpenseReimbursement control.
         /// </summary>
@@ -1226,7 +1228,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liExpenseReimbursement;
-        
+
         /// <summary>
         /// liBillPayment control.
         /// </summary>
@@ -1235,7 +1237,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liBillPayment;
-        
+
         /// <summary>
         /// liChangeFinYr control.
         /// </summary>
@@ -1244,7 +1246,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liChangeFinYr;
-        
+
         /// <summary>
         /// liDebitNote control.
         /// </summary>
@@ -1253,7 +1255,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liDebitNote;
-        
+
         /// <summary>
         /// liPLTransfer control.
         /// </summary>
@@ -1262,7 +1264,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liPLTransfer;
-        
+
         /// <summary>
         /// liPO control.
         /// </summary>
@@ -1271,7 +1273,7 @@ namespace CollegeERP.UserControl {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liPO;
-        
+
         /// <summary>
         /// liPOEntry control.
         /// </summary>
