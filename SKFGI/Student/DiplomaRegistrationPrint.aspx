@@ -48,7 +48,7 @@
                 </tr>
                 <tr>
                     <td colspan="4">
-                        <img src="../Images/logoBTech1.JPG" width="100%" />
+                        <img src="../Images/DiplomaHeader.JPG" width="100%" />
                     </td>
                 </tr>
                 <tr>
@@ -123,8 +123,11 @@
         <div style="width: 760px;">
             <table width="100%" align="center" class="table">
                  <tr>
-                    <td colspan="2">
-                       &nbsp;
+                    <td align="left" class="style1">
+                        Course applied :-
+                    </td>
+                    <td align="left">
+                        <asp:Label ID="Label8" runat="server" Font-Bold="True" Text="Diploma"></asp:Label>
                     </td>
                 </tr>
                 <tr>
@@ -775,7 +778,7 @@
                         The Campus Director
                         <br />
                         <%--<h5>--%>
-                            BENGAL SCHOOL OF TECHNOLOGY & MANAGEMENT
+                            BENGAL SCHOOL OF TECHNOLOGY 
                         <%--</h5>--%>
                         <br />
                         <br />

@@ -682,7 +682,7 @@ namespace CollegeERP.Student
             Entity.Student.DiplomaRegistration eDipReg = new Entity.Student.DiplomaRegistration();
             eDipReg.intMode = callMode;
             eDipReg.studentID = int.Parse(strStudentID);
-            eDipReg.intCompanyId = BusinessLayer.Common.Company.GetCompanyId("Diploma");
+            eDipReg.intCompanyId = BusinessLayer.Common.Company.GetCompanyId("BST");
             eDipReg.login_id = HttpContext.Current.User.Identity.Name;
             eDipReg.CourseId = 4;
             eDipReg.strapplicationNumber = "";

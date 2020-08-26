@@ -7,11 +7,13 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace CollegeERP.Student {
-    
-    
-    public partial class DiplomaRegistrationPrint {
-        
+namespace CollegeERP.Student
+{
+
+
+    public partial class DiplomaRegistrationPrint
+    {
+
         /// <summary>
         /// form1 control.
         /// </summary>
@@ -20,7 +22,7 @@ namespace CollegeERP.Student {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
-        
+
         /// <summary>
         /// lblapplicationNumber control.
         /// </summary>
@@ -29,7 +31,7 @@ namespace CollegeERP.Student {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblapplicationNumber;
-        
+
         /// <summary>
         /// ltrBatchname control.
         /// </summary>
@@ -38,7 +40,7 @@ namespace CollegeERP.Student {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Literal ltrBatchname;
-        
+
         /// <summary>
         /// Label1 control.
         /// </summary>
@@ -47,7 +49,7 @@ namespace CollegeERP.Student {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label1;
-        
+
         /// <summary>
         /// lblApplicantName control.
         /// </summary>
@@ -56,7 +58,7 @@ namespace CollegeERP.Student {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblApplicantName;
-        
+
         /// <summary>
         /// ImgPhoto control.
         /// </summary>
@@ -65,7 +67,7 @@ namespace CollegeERP.Student {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Image ImgPhoto;
-        
+
         /// <summary>
         /// lblEnrollmentNo control.
         /// </summary>
@@ -74,7 +76,7 @@ namespace CollegeERP.Student {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblEnrollmentNo;
-        
+
         /// <summary>
         /// lblOption control.
         /// </summary>
@@ -83,7 +85,7 @@ namespace CollegeERP.Student {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblOption;
-        
+
         /// <summary>
         /// lblRankid control.
         /// </summary>
@@ -92,7 +94,7 @@ namespace CollegeERP.Student {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblRankid;
-        
+
         /// <summary>
         /// DDLTFW control.
         /// </summary>
@@ -101,7 +103,7 @@ namespace CollegeERP.Student {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RadioButtonList DDLTFW;
-        
+
         /// <summary>
         /// RDBLateral control.
         /// </summary>
@@ -110,7 +112,16 @@ namespace CollegeERP.Student {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RadioButtonList RDBLateral;
-        
+
+        /// <summary>
+        /// Label8 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label8;
+
         /// <summary>
         /// lblStreamApplied control.
         /// </summary>
@@ -119,7 +130,7 @@ namespace CollegeERP.Student {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblStreamApplied;
-        
+
         /// <summary>
         /// lblPhy control.
         /// </summary>
@@ -128,7 +139,7 @@ namespace CollegeERP.Student {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblPhy;
-        
+
         /// <summary>
         /// lblLSc control.
         /// </summary>
@@ -137,7 +148,7 @@ namespace CollegeERP.Student {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblLSc;
-        
+
         /// <summary>
         /// lblMath control.
         /// </summary>
@@ -146,7 +157,7 @@ namespace CollegeERP.Student {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblMath;
-        
+
         /// <summary>
         /// lblEngg control.
         /// </summary>
@@ -155,7 +166,7 @@ namespace CollegeERP.Student {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblEngg;
-        
+
         /// <summary>
         /// Label2 control.
         /// </summary>
@@ -164,7 +175,7 @@ namespace CollegeERP.Student {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label2;
-        
+
         /// <summary>
         /// lblNameOfApplicant control.
         /// </summary>
@@ -173,7 +184,7 @@ namespace CollegeERP.Student {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblNameOfApplicant;
-        
+
         /// <summary>
         /// lblDob control.
         /// </summary>
@@ -182,7 +193,7 @@ namespace CollegeERP.Student {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblDob;
-        
+
         /// <summary>
         /// lblAdhar control.
         /// </summary>
@@ -191,7 +202,7 @@ namespace CollegeERP.Student {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblAdhar;
-        
+
         /// <summary>
         /// lblAccName control.
         /// </summary>
@@ -200,7 +211,7 @@ namespace CollegeERP.Student {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblAccName;
-        
+
         /// <summary>
         /// lblAccNo control.
         /// </summary>
@@ -209,7 +220,7 @@ namespace CollegeERP.Student {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblAccNo;
-        
+
         /// <summary>
         /// lblIFSC control.
         /// </summary>
@@ -218,7 +229,7 @@ namespace CollegeERP.Student {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblIFSC;
-        
+
         /// <summary>
         /// lblFatherName control.
         /// </summary>
@@ -227,7 +238,7 @@ namespace CollegeERP.Student {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblFatherName;
-        
+
         /// <summary>
         /// lblFatherOccupation control.
         /// </summary>
@@ -236,7 +247,7 @@ namespace CollegeERP.Student {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblFatherOccupation;
-        
+
         /// <summary>
         /// lblMotherName control.
         /// </summary>
@@ -245,7 +256,7 @@ namespace CollegeERP.Student {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblMotherName;
-        
+
         /// <summary>
         /// lblMotherOccupation control.
         /// </summary>
@@ -254,7 +265,7 @@ namespace CollegeERP.Student {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblMotherOccupation;
-        
+
         /// <summary>
         /// lblGuardiansName control.
         /// </summary>
@@ -263,7 +274,7 @@ namespace CollegeERP.Student {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblGuardiansName;
-        
+
         /// <summary>
         /// lblPAddress control.
         /// </summary>
@@ -272,7 +283,7 @@ namespace CollegeERP.Student {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblPAddress;
-        
+
         /// <summary>
         /// lblpstate control.
         /// </summary>
@@ -281,7 +292,7 @@ namespace CollegeERP.Student {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblpstate;
-        
+
         /// <summary>
         /// lblpdistrict control.
         /// </summary>
@@ -290,7 +301,7 @@ namespace CollegeERP.Student {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblpdistrict;
-        
+
         /// <summary>
         /// lblpcity control.
         /// </summary>
@@ -299,7 +310,7 @@ namespace CollegeERP.Student {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblpcity;
-        
+
         /// <summary>
         /// lblppin control.
         /// </summary>
@@ -308,7 +319,7 @@ namespace CollegeERP.Student {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblppin;
-        
+
         /// <summary>
         /// lblCAddress control.
         /// </summary>
@@ -317,7 +328,7 @@ namespace CollegeERP.Student {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblCAddress;
-        
+
         /// <summary>
         /// lblcstate control.
         /// </summary>
@@ -326,7 +337,7 @@ namespace CollegeERP.Student {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblcstate;
-        
+
         /// <summary>
         /// lblcdistrict control.
         /// </summary>
@@ -335,7 +346,7 @@ namespace CollegeERP.Student {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblcdistrict;
-        
+
         /// <summary>
         /// lblccity control.
         /// </summary>
@@ -344,7 +355,7 @@ namespace CollegeERP.Student {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblccity;
-        
+
         /// <summary>
         /// lblcpin control.
         /// </summary>
@@ -353,7 +364,7 @@ namespace CollegeERP.Student {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblcpin;
-        
+
         /// <summary>
         /// Label3 control.
         /// </summary>
@@ -362,7 +373,7 @@ namespace CollegeERP.Student {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label3;
-        
+
         /// <summary>
         /// Label5 control.
         /// </summary>
@@ -371,7 +382,7 @@ namespace CollegeERP.Student {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label5;
-        
+
         /// <summary>
         /// Label6 control.
         /// </summary>
@@ -380,7 +391,7 @@ namespace CollegeERP.Student {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label6;
-        
+
         /// <summary>
         /// lblPResidential control.
         /// </summary>
@@ -389,7 +400,7 @@ namespace CollegeERP.Student {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblPResidential;
-        
+
         /// <summary>
         /// lblSResidential control.
         /// </summary>
@@ -398,7 +409,7 @@ namespace CollegeERP.Student {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblSResidential;
-        
+
         /// <summary>
         /// lblPMobile control.
         /// </summary>
@@ -407,7 +418,7 @@ namespace CollegeERP.Student {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblPMobile;
-        
+
         /// <summary>
         /// lblSMobile control.
         /// </summary>
@@ -416,7 +427,7 @@ namespace CollegeERP.Student {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblSMobile;
-        
+
         /// <summary>
         /// lblEmail control.
         /// </summary>
@@ -425,7 +436,7 @@ namespace CollegeERP.Student {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblEmail;
-        
+
         /// <summary>
         /// lblHostelFacility control.
         /// </summary>
@@ -434,7 +445,7 @@ namespace CollegeERP.Student {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblHostelFacility;
-        
+
         /// <summary>
         /// lblGender control.
         /// </summary>
@@ -443,7 +454,7 @@ namespace CollegeERP.Student {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblGender;
-        
+
         /// <summary>
         /// lblMaritalStatus control.
         /// </summary>
@@ -452,7 +463,7 @@ namespace CollegeERP.Student {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblMaritalStatus;
-        
+
         /// <summary>
         /// lblMotherTong control.
         /// </summary>
@@ -461,7 +472,7 @@ namespace CollegeERP.Student {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblMotherTong;
-        
+
         /// <summary>
         /// lblNationality control.
         /// </summary>
@@ -470,7 +481,7 @@ namespace CollegeERP.Student {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblNationality;
-        
+
         /// <summary>
         /// lblRealigion control.
         /// </summary>
@@ -479,7 +490,7 @@ namespace CollegeERP.Student {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblRealigion;
-        
+
         /// <summary>
         /// lblBloodGroup control.
         /// </summary>
@@ -488,7 +499,7 @@ namespace CollegeERP.Student {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblBloodGroup;
-        
+
         /// <summary>
         /// lblBengali control.
         /// </summary>
@@ -497,7 +508,7 @@ namespace CollegeERP.Student {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblBengali;
-        
+
         /// <summary>
         /// lblHindi control.
         /// </summary>
@@ -506,7 +517,7 @@ namespace CollegeERP.Student {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblHindi;
-        
+
         /// <summary>
         /// lblEnglish control.
         /// </summary>
@@ -515,7 +526,7 @@ namespace CollegeERP.Student {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblEnglish;
-        
+
         /// <summary>
         /// lblOther control.
         /// </summary>
@@ -524,7 +535,7 @@ namespace CollegeERP.Student {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblOther;
-        
+
         /// <summary>
         /// lblcast control.
         /// </summary>
@@ -533,7 +544,7 @@ namespace CollegeERP.Student {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblcast;
-        
+
         /// <summary>
         /// lblMonthlyIncome control.
         /// </summary>
@@ -542,7 +553,7 @@ namespace CollegeERP.Student {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblMonthlyIncome;
-        
+
         /// <summary>
         /// Label4 control.
         /// </summary>
@@ -551,7 +562,7 @@ namespace CollegeERP.Student {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label4;
-        
+
         /// <summary>
         /// lblRefferenceName1 control.
         /// </summary>
@@ -560,7 +571,7 @@ namespace CollegeERP.Student {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblRefferenceName1;
-        
+
         /// <summary>
         /// lblRefferenceAddress1 control.
         /// </summary>
@@ -569,7 +580,7 @@ namespace CollegeERP.Student {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblRefferenceAddress1;
-        
+
         /// <summary>
         /// lblRefferenceContactNumber1 control.
         /// </summary>
@@ -578,7 +589,7 @@ namespace CollegeERP.Student {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblRefferenceContactNumber1;
-        
+
         /// <summary>
         /// lblRefferenceName2 control.
         /// </summary>
@@ -587,7 +598,7 @@ namespace CollegeERP.Student {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblRefferenceName2;
-        
+
         /// <summary>
         /// lblRefferenceAddress2 control.
         /// </summary>
@@ -596,7 +607,7 @@ namespace CollegeERP.Student {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblRefferenceAddress2;
-        
+
         /// <summary>
         /// lblRefferenceContactNumber2 control.
         /// </summary>
@@ -605,7 +616,7 @@ namespace CollegeERP.Student {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblRefferenceContactNumber2;
-        
+
         /// <summary>
         /// lblXSubject control.
         /// </summary>
@@ -614,7 +625,7 @@ namespace CollegeERP.Student {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblXSubject;
-        
+
         /// <summary>
         /// lblXBoard control.
         /// </summary>
@@ -623,7 +634,7 @@ namespace CollegeERP.Student {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblXBoard;
-        
+
         /// <summary>
         /// lblXCollege control.
         /// </summary>
@@ -632,7 +643,7 @@ namespace CollegeERP.Student {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblXCollege;
-        
+
         /// <summary>
         /// lblXYearOfPassing control.
         /// </summary>
@@ -641,7 +652,7 @@ namespace CollegeERP.Student {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblXYearOfPassing;
-        
+
         /// <summary>
         /// lblXMarks control.
         /// </summary>
@@ -650,7 +661,7 @@ namespace CollegeERP.Student {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblXMarks;
-        
+
         /// <summary>
         /// lblITISubject control.
         /// </summary>
@@ -659,7 +670,7 @@ namespace CollegeERP.Student {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblITISubject;
-        
+
         /// <summary>
         /// lblITIBoard control.
         /// </summary>
@@ -668,7 +679,7 @@ namespace CollegeERP.Student {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblITIBoard;
-        
+
         /// <summary>
         /// lblITICollege control.
         /// </summary>
@@ -677,7 +688,7 @@ namespace CollegeERP.Student {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblITICollege;
-        
+
         /// <summary>
         /// lblITIYearOfPassing control.
         /// </summary>
@@ -686,7 +697,7 @@ namespace CollegeERP.Student {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblITIYearOfPassing;
-        
+
         /// <summary>
         /// lblITIMarks control.
         /// </summary>
@@ -695,7 +706,7 @@ namespace CollegeERP.Student {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblITIMarks;
-        
+
         /// <summary>
         /// lblVSubject control.
         /// </summary>
@@ -704,7 +715,7 @@ namespace CollegeERP.Student {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblVSubject;
-        
+
         /// <summary>
         /// lblVBoard control.
         /// </summary>
@@ -713,7 +724,7 @@ namespace CollegeERP.Student {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblVBoard;
-        
+
         /// <summary>
         /// lblVCollege control.
         /// </summary>
@@ -722,7 +733,7 @@ namespace CollegeERP.Student {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblVCollege;
-        
+
         /// <summary>
         /// lblVYearOfPassing control.
         /// </summary>
@@ -731,7 +742,7 @@ namespace CollegeERP.Student {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblVYearOfPassing;
-        
+
         /// <summary>
         /// lblVMarks control.
         /// </summary>
@@ -740,7 +751,7 @@ namespace CollegeERP.Student {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblVMarks;
-        
+
         /// <summary>
         /// lblschool control.
         /// </summary>
@@ -749,7 +760,7 @@ namespace CollegeERP.Student {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblschool;
-        
+
         /// <summary>
         /// chkListDoc1 control.
         /// </summary>
@@ -758,7 +769,7 @@ namespace CollegeERP.Student {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.CheckBox chkListDoc1;
-        
+
         /// <summary>
         /// chkListDoc2 control.
         /// </summary>
@@ -767,7 +778,7 @@ namespace CollegeERP.Student {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.CheckBox chkListDoc2;
-        
+
         /// <summary>
         /// chkListDoc3 control.
         /// </summary>
@@ -776,7 +787,7 @@ namespace CollegeERP.Student {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.CheckBox chkListDoc3;
-        
+
         /// <summary>
         /// chkListDoc4 control.
         /// </summary>
@@ -785,7 +796,7 @@ namespace CollegeERP.Student {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.CheckBox chkListDoc4;
-        
+
         /// <summary>
         /// chkListDoc5 control.
         /// </summary>
@@ -794,7 +805,7 @@ namespace CollegeERP.Student {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.CheckBox chkListDoc5;
-        
+
         /// <summary>
         /// chkListDoc6 control.
         /// </summary>
@@ -803,7 +814,7 @@ namespace CollegeERP.Student {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.CheckBox chkListDoc6;
-        
+
         /// <summary>
         /// chkListDoc7 control.
         /// </summary>
@@ -812,7 +823,7 @@ namespace CollegeERP.Student {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.CheckBox chkListDoc7;
-        
+
         /// <summary>
         /// lblSession control.
         /// </summary>
@@ -821,7 +832,7 @@ namespace CollegeERP.Student {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblSession;
-        
+
         /// <summary>
         /// Label7 control.
         /// </summary>
@@ -830,7 +841,7 @@ namespace CollegeERP.Student {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label7;
-        
+
         /// <summary>
         /// lblSubmittedBy control.
         /// </summary>
@@ -839,7 +850,7 @@ namespace CollegeERP.Student {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblSubmittedBy;
-        
+
         /// <summary>
         /// lblVarifiedBy control.
         /// </summary>
@@ -848,7 +859,7 @@ namespace CollegeERP.Student {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblVarifiedBy;
-        
+
         /// <summary>
         /// lblAFVDate control.
         /// </summary>
