@@ -47,6 +47,7 @@
                                 <asp:ListItem Value="SEM" Text="Semester" Selected="True"></asp:ListItem>
                                 <asp:ListItem Value="HOS" Text="Hostel"></asp:ListItem>
                                 <asp:ListItem Value="OTH" Text="Other"></asp:ListItem>
+                                <asp:ListItem Value="YEAR" Text="YEAR"></asp:ListItem>
                             </asp:RadioButtonList>
                         </td>
                     </tr>

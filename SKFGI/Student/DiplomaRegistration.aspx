@@ -79,18 +79,11 @@
                         <asp:RadioButton ID="rbVOCLET" runat="server" Text="VOCLET" GroupName="enggRank" />&nbsp;&nbsp;<br />
                         <asp:RadioButton ID="rbDirect" runat="server" Text="DIRECT" GroupName="enggRank" />&nbsp;&nbsp;
                         <asp:RadioButton ID="rbMQ" runat="server" Text="MQ" GroupName="enggRank" />&nbsp;&nbsp;
+                        <asp:RadioButton ID="rbCET" runat="server" Text="CET" GroupName="enggRank" />&nbsp;&nbsp;
                     </td>
                 </tr>
                 <tr>
-                    <td align="left" width="20%" class="label">
-                        Lateral
-                    </td>
-                    <td align="left">
-                        <asp:RadioButtonList ID="RDBLateral" runat="server" RepeatDirection="Horizontal">
-                            <asp:ListItem Value="True">YES</asp:ListItem>
-                            <asp:ListItem Value="False">NO</asp:ListItem>
-                        </asp:RadioButtonList>
-                    </td>
+                   
                     <td align="left" width="20%" class="label">
                         Rank
                     </td>
@@ -152,22 +145,15 @@
             </table>
         </div>
         <h6 align="left" style="color: #00356A;">
-            3-yrs Diploma courses are offered in the following branches</h6>
+            2-yrs Diploma course is offered in the following branch</h6>
         <div style="width: 740px;">
             <table width="100%" align="center" class="table">
                 <tr>
                     <td align="left" colspan="2">
-                        a. Civil Engineering (CE)
+                         <b>D. Pharm</b>
                         <br />
                         <br />
-                        b. Mechanical Engineering (ME)
-                        <br />
-                        <br />
-                        c. Electrical Engineering (EE)
-                        <br />
-                        <br />
-                        Students who have cleared 10th standard(Madhyamik Examination) with at least 35%
-                        marks in aggregate are eligible for admission through JEXPO
+                        Students who have cleared 12th standard(Higher Secondary Examination) with 45% marks in Physics, Chemistry, Biology or Maths are eligible.
                     </td>
                 </tr>
                 <tr>
@@ -181,7 +167,7 @@
                 </tr>
                 <tr>
                     <td align="left" width="20%" class="label">
-                        Percentage of marks (10)
+                        Percentage of marks (12)
                     </td>
                     <td align="left">
                         <table style="width: 80%">
@@ -194,7 +180,7 @@
                                         onblur="isNumber(this)"></asp:TextBox>
                                 </td>
                                 <td>
-                                    L.Sc
+                                    Chem
                                 </td>
                                 <td>
                                     <asp:TextBox ID="txtLsc" runat="server" CssClass="textbox" Width="50px" onKeyPress="return NumbersOnly(event)"
@@ -208,7 +194,7 @@
                                         onblur="isNumber(this)"></asp:TextBox>
                                 </td>
                                 <td>
-                                    Eng
+                                    Bio
                                 </td>
                                 <td>
                                     <asp:TextBox ID="txtEngg" runat="server" CssClass="textbox" Width="50px" onKeyPress="return NumbersOnly(event)"
@@ -711,7 +697,7 @@
                                 </tr>
                                 <tr class="RowStyle">
                                     <td class="label" style="color: #00356A;">
-                                        ITI
+                                        Class XII
                                     </td>
                                     <td>
                                         <asp:TextBox ID="txtITISubject" runat="server" CssClass="textbox" Style="width: 100px"></asp:TextBox>
@@ -758,7 +744,7 @@
                             <table>
                                 <tr>
                                     <td align="left" width="137px" class="label">
-                                        School/College<span class="req">*</span>
+                                        School/College
                                     </td>
                                     <td align="left">
                                         <asp:DropDownList ID="ddlSchool" runat="server" CssClass="dropdownList" Width="180px">
@@ -820,7 +806,7 @@
                         <asp:CheckBox ID="chkListDoc4" runat="server" />
                     </td>
                     <td class="label" align="left">
-                        Original Mark Sheet of ITI,Vocational Examination along with two Xerox copies.
+                        Original Mark Sheet of 10+2,Vocational Examination along with two Xerox copies.
                     </td>
                 </tr>
                 <tr>

@@ -57,10 +57,10 @@
                     </asp:DropDownList>
                 </td>
                 <td align="left" width="20%" class="label">
-                    Semester No <span class="req">*</span>
+                    Semester / Year <span class="req">*</span>
                 </td>
                 <td align="left" width="30%">
-                    <asp:DropDownList ID="ddlSemNo" runat="server" CssClass="dropdownList" Width="140px">
+                    <asp:DropDownList ID="ddlSemNo" runat="server" CssClass="dropdownList" Width="140px" DataValueField="Value" DataTextField="Name"  >
                     </asp:DropDownList>
                 </td>
             </tr>

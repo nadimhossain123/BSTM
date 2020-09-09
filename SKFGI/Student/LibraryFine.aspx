@@ -89,7 +89,7 @@
                             Semester
                         </td>
                         <td align="left" colspan="3" valign="top">
-                            <asp:DropDownList ID="ddlSemNo" runat="server" CssClass="dropdownList" Width="140px">
+                            <asp:DropDownList ID="ddlSemNo" runat="server" CssClass="dropdownList" Width="140px" DataValueField="Value" DataTextField="Name">
                             </asp:DropDownList>
                         </td>
                     </tr>

@@ -424,6 +424,8 @@ namespace CollegeERP.Accounts
                 dv.RowFilter = "CompanyId = " + Session["CompanyId"].ToString() + " or CompanyId = 0";
                 ddlCourse.DataSource = dv;
                 ddlCourse.DataBind();
+                ddlCourseId.DataSource = dv;
+                ddlCourseId.DataBind();
             }
             LoadStream();
         }
@@ -440,6 +442,27 @@ namespace CollegeERP.Accounts
                 ddlStream.DataSource = dt;
                 ddlStream.DataBind();
             }
+        }
+        
+        
+        protected void ddlCourseId_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            LoadSemester();
+        }
+        protected void LoadSemester()
+        {
+            int CourseId = int.Parse(ddlCourseId.SelectedValue.Trim());
+            BusinessLayer.Student.BTechRegistration ObjRegistration = new BusinessLayer.Student.BTechRegistration();
+            Entity.Student.BTechRegistration Registration = new Entity.Student.BTechRegistration();
+            Registration.intMode = 5;
+            Registration.CourseId = CourseId;
+            DataTable dt = ObjRegistration.GetAllCommonSP(Registration);
+            if (dt != null)
+            {
+                ddlSemester.DataSource = dt;
+                ddlSemester.DataBind();
+            }
+            ddlSemester.Items.Insert(0, li);
         }
 
         protected void ddlBatch_SelectedIndexChanged(object sender, EventArgs e)

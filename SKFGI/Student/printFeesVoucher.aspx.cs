@@ -63,6 +63,11 @@ namespace CollegeERP.Student
                 headerCount = 4;
                 width = 80;
             }
+            if (courseID == 4)
+            {
+                headerCount = 2;
+                width = 20;
+            }
             else
             {
                 headerCount = 8;
@@ -101,6 +106,11 @@ namespace CollegeERP.Student
                 headerCount = 4;
                 width = 80;
             }
+            if (courseID == 4)
+            {
+                headerCount = 2;
+                width = 20;
+            }
             else
             {
                 headerCount = 8;
@@ -109,7 +119,7 @@ namespace CollegeERP.Student
             for (int i = 0; i < headerCount; i++)
             {
                 str += "<th scope='col' style='width: " + width + "px'>";
-                str += GetSemName(i + 1);
+                str += GetSemName(i + 1, courseID);
                 str += "</th>";
             }
             str += "</tr>";
@@ -139,9 +149,11 @@ namespace CollegeERP.Student
             return str;
         }
 
-        private string GetSemName(int SemNo)
+        private string GetSemName(int SemNo,int courseID)
         {
             string ReturnValue = "";
+            if(courseID!=4)
+            { 
             switch (SemNo)
             {
                 case 1: ReturnValue = "1st Sem"; break;
@@ -152,6 +164,15 @@ namespace CollegeERP.Student
                 case 6: ReturnValue = "6th Sem"; break;
                 case 7: ReturnValue = "7th Sem"; break;
                 case 8: ReturnValue = "8th Sem"; break;
+            }
+            }
+            else
+            {
+                switch (SemNo)
+                {
+                    case 1: ReturnValue = "1st Year"; break;
+                    case 2: ReturnValue = "2nd Year"; break;
+                }
             }
             return ReturnValue;
         }

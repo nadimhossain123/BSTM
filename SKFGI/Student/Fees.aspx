@@ -152,19 +152,11 @@
                         </tr>
                         <tr id="trSemester" runat="server">
                             <td align="left" width="20%" class="label">
-                                Select Semester
+                                Select Semester/ Year
                             </td>
                             <td align="left">
-                            <asp:DropDownList ID="ddlSemester" runat="server" CssClass="dropdownList" Width="192px">
-                                <asp:ListItem Value="0" Text="---SELECT---"></asp:ListItem>
-                                <asp:ListItem Value="1" Text="SEM 1"></asp:ListItem>
-                                <asp:ListItem Value="2" Text="SEM 2"></asp:ListItem>
-                                <asp:ListItem Value="3" Text="SEM 3"></asp:ListItem>
-                                <asp:ListItem Value="4" Text="SEM 4"></asp:ListItem>
-                                <asp:ListItem Value="5" Text="SEM 5"></asp:ListItem>
-                                <asp:ListItem Value="6" Text="SEM 6"></asp:ListItem>
-                                <asp:ListItem Value="7" Text="SEM 7"></asp:ListItem>
-                                <asp:ListItem Value="8" Text="SEM 8"></asp:ListItem>
+                            <asp:DropDownList ID="ddlSemester" runat="server" CssClass="dropdownList" Width="192px"  DataValueField="Value" DataTextField="Name" >
+                              
                             </asp:DropDownList>
                         </td>
                             <td align="left" width="20%" class="label" valign="top">

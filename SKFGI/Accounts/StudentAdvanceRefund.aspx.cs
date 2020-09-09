@@ -69,6 +69,44 @@ namespace CollegeERP.Accounts
             }
             ddlStudent.Items.Insert(0, li);
         }
+        protected void LoadCourse()
+        {
+            BusinessLayer.Student.BTechRegistration ObjRegistration = new BusinessLayer.Student.BTechRegistration();
+            Entity.Student.BTechRegistration Registration = new Entity.Student.BTechRegistration();
+            Registration.intMode = 2;
+            Registration.CourseId = 0; // Course Id is not required to fetch all courses
+            DataView DV = new DataView(ObjRegistration.GetAllCommonSP(Registration));
+            DV.RowFilter = "CompanyId = " + Session["CompanyId"].ToString() + " Or CompanyId = 0";
+
+            if (DV != null)
+            {
+                ddlCourseId.DataSource = DV;
+                ddlCourseId.DataBind();
+               
+
+            }
+            
+        }
+        protected void ddlCourseId_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            LoadSemester();
+        }
+        protected void LoadSemester()
+        {
+            int CourseId = int.Parse(ddlCourseId.SelectedValue.Trim());
+            BusinessLayer.Student.BTechRegistration ObjRegistration = new BusinessLayer.Student.BTechRegistration();
+            Entity.Student.BTechRegistration Registration = new Entity.Student.BTechRegistration();
+            Registration.intMode = 5;
+            Registration.CourseId = CourseId;
+            DataTable dt = ObjRegistration.GetAllCommonSP(Registration);
+            if (dt != null)
+            {
+                ddlSemester.DataSource = dt;
+                ddlSemester.DataBind();
+            }
+            ddlSemester.Items.Insert(0, li);
+        }
+
 
         protected void ClearControls()
         {
@@ -91,6 +129,8 @@ namespace CollegeERP.Accounts
 
             dgvFeesHead.DataSource = null;
             dgvFeesHead.DataBind();
+
+            LoadCourse();
 
             btnPrint.Attributes.Add("onclick", "javascript:alert('No Money Receipt To Print'); return false;");
         }

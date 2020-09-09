@@ -39,6 +39,7 @@ namespace CollegeERP.Student
                 populateLoad();
                 if (Request.QueryString["id"] != null && Request.QueryString["id"].Trim().Length > 0)
                 {
+                   
                     populateFeesDetails(Convert.ToInt32(Request.QueryString["id"].ToString()));
                     intHeaderID = Convert.ToInt32(Request.QueryString["id"].ToString());
                 }
@@ -88,6 +89,7 @@ namespace CollegeERP.Student
 
                 txtFeesName.Text = dt.Rows[0]["fees_name"].ToString();
                 hidCourse_id.Value = dt.Rows[0]["CourseId"].ToString();
+                populateSemester();
             }
         }
         protected void ClearFields(ControlCollection pageControls)
@@ -216,13 +218,18 @@ namespace CollegeERP.Student
                 headerCount = 4;
                 width = 80;
             }
+            else if (courseType == 4)
+            {
+                headerCount = 2;
+                width = 40;
+            }
             else
             {
                 headerCount = 8;
                 width = 50;
             }
 
-
+            
             ////////CREATE HEADER .////////////////////////////
             createHeader(headerCount, width);
             panelfeesDetails1.Controls.Add(new LiteralControl("</tr>"));
@@ -279,6 +286,23 @@ namespace CollegeERP.Student
 
         }
 
+        private void populateSemester()
+        {
+            int CourseId = int.Parse(ddlCourse1.SelectedValue.Trim());
+            BusinessLayer.Student.BTechRegistration ObjRegistration = new BusinessLayer.Student.BTechRegistration();
+            Entity.Student.BTechRegistration Registration = new Entity.Student.BTechRegistration();
+            Registration.intMode = 5;
+            Registration.CourseId = CourseId;
+            DataTable dt = ObjRegistration.GetAllCommonSP(Registration);
+            if (dt != null)
+            {
+                ddlSemester.DataSource = dt;
+                ddlSemester.DataBind();
+            }
+            ddlSemester.Items.Insert(0, li);
+
+        }
+
         private void createHeader(int headerCount, int width)
         {
             for (int i = 0; i < headerCount; i++)
@@ -292,16 +316,44 @@ namespace CollegeERP.Student
         private string GetSemName(int SemNo)
         {
             string ReturnValue = "";
-            switch (SemNo)
+            int courseID = Convert.ToInt32(ddlCourse1.SelectedValue);
+            if (courseID != 4)
             {
-                case 1: ReturnValue = "1st Sem"; break;
-                case 2: ReturnValue = "2nd Sem"; break;
-                case 3: ReturnValue = "3rd Sem"; break;
-                case 4: ReturnValue = "4th Sem"; break;
-                case 5: ReturnValue = "5th Sem"; break;
-                case 6: ReturnValue = "6th Sem"; break;
-                case 7: ReturnValue = "7th Sem"; break;
-                case 8: ReturnValue = "8th Sem"; break;
+                switch (SemNo)
+                {
+                    case 1: ReturnValue = "1st Sem"; break;
+                    case 2: ReturnValue = "2nd Sem"; break;
+                    case 3: ReturnValue = "3rd Sem"; break;
+                    case 4: ReturnValue = "4th Sem"; break;
+                    case 5: ReturnValue = "5th Sem"; break;
+                    case 6: ReturnValue = "6th Sem"; break;
+                    case 7: ReturnValue = "7th Sem"; break;
+                    case 8: ReturnValue = "8th Sem"; break;
+                }
+            }
+            if (courseID == 0)
+            {
+                switch (SemNo)
+                {
+                    case 1: ReturnValue = "1st Sem/year"; break;
+                    case 2: ReturnValue = "2nd Sem/year"; break;
+                    case 3: ReturnValue = "3rd Sem"; break;
+                    case 4: ReturnValue = "4th Sem"; break;
+                    case 5: ReturnValue = "5th Sem"; break;
+                    case 6: ReturnValue = "6th Sem"; break;
+                    case 7: ReturnValue = "7th Sem"; break;
+                    case 8: ReturnValue = "8th Sem"; break;
+                    
+                }
+            }
+
+            else
+            {
+                switch (SemNo)
+                {
+                    case 1: ReturnValue = "1st Year"; break;
+                    case 2: ReturnValue = "2nd Year"; break;
+                }
             }
             return ReturnValue;
         }
@@ -350,6 +402,10 @@ namespace CollegeERP.Student
                     if (courseType == 1 || courseType == 3)
                     {
                         headerCount = 6;
+                    }
+                    if (courseType == 4)
+                    {
+                        headerCount = 2;
                     }
                     else
                     {
@@ -414,6 +470,7 @@ namespace CollegeERP.Student
             courseType = Convert.ToInt32(ddlCourse1.SelectedValue);
             panelfeesDetails1.Controls.Clear();
             populatefees();
+            populateSemester();
         }
 
         protected void btnCancel_Click(object sender, EventArgs e)

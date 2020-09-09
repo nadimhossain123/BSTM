@@ -14,8 +14,10 @@ using BusinessLayer.Accounts;
 
 namespace CollegeERP.Student
 {
+    
     public partial class SemFeesGeneration : System.Web.UI.Page
     {
+        ListItem li = new ListItem("---SELECT---", "0");
         clsGeneralFunctions gf = new clsGeneralFunctions();
         char chr = Convert.ToChar(130);
         
@@ -75,32 +77,49 @@ namespace CollegeERP.Student
 
         protected void LoadSemNo()
         {
-            ddlSemNo.Items.Clear();
+            //ddlSemNo.Items.Clear();
+            //int CourseId = int.Parse(ddlCourse.SelectedValue.Trim());
+            //ListItem lst;
+            //int LastSemNo = 0;
+            //if (CourseId == 1 || CourseId == 3) //means MBA or MTech
+            //{
+            //    LastSemNo = 6;
+            //}
+            //else if (CourseId == 2)
+            //{
+            //    LastSemNo = 8; 
+            //}
+            //else if (CourseId == 4)
+            //{
+            //    LastSemNo = 6;
+            //}
+
+            //for (int i = 1; i <= LastSemNo; i++)
+            //{
+            //    lst = new ListItem("Sem-" + i.ToString(), i.ToString());
+            //    ddlSemNo.Items.Add(lst);
+            //}
+
+            //lst = new ListItem("--Select--", "0");
+            //ddlSemNo.Items.Insert(0, lst);
+            //ddlSemNo.SelectedValue = "0";
+
             int CourseId = int.Parse(ddlCourse.SelectedValue.Trim());
-            ListItem lst;
-            int LastSemNo = 0;
-            if (CourseId == 1 || CourseId == 3) //means MBA or MTech
+            BusinessLayer.Student.BTechRegistration ObjRegistration = new BusinessLayer.Student.BTechRegistration();
+            Entity.Student.BTechRegistration Registration = new Entity.Student.BTechRegistration();
+            Registration.intMode = 5;
+            Registration.CourseId = CourseId;
+            DataTable dt = ObjRegistration.GetAllCommonSP(Registration);
+            if (dt != null)
             {
-                LastSemNo = 6;
+                ddlSemNo.DataSource = dt;
+                ddlSemNo.DataBind();
             }
-            else if (CourseId == 2)
-            {
-                LastSemNo = 8; 
-            }
-            else if (CourseId == 4)
-            {
-                LastSemNo = 6;
-            }
+            ddlSemNo.Items.Insert(0, li);
 
-            for (int i = 1; i <= LastSemNo; i++)
-            {
-                lst = new ListItem("Sem-" + i.ToString(), i.ToString());
-                ddlSemNo.Items.Add(lst);
-            }
 
-            lst = new ListItem("--Select--", "0");
-            ddlSemNo.Items.Insert(0, lst);
-            ddlSemNo.SelectedValue = "0";
+
+
         }
 
         protected void LoadBatch()

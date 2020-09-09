@@ -111,7 +111,7 @@ namespace SKFGI.Accounts
             ListItem li = new ListItem("Select", "0");
             ddlLedg.Items.Insert(0, li);
 
-            dv.RowFilter = "LedgerType = ('OTH') AND (ActType1 = 1 AND ActType2 = 4 AND ActType3 = 25)";
+            dv.RowFilter = "LedgerType = ('OTH') AND (ActType1 = 41 AND ActType2 = 42 AND ActType3 = 43)";
             if (dv != null)
             {
                 ddlAdjustmentLedg.DataSource = dv;

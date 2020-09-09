@@ -25,7 +25,7 @@ namespace CollegeERP.Student
 
         protected void Page_PreInit(Object sender, EventArgs e)
         {
-            if (Session["UserId"] == "1")
+            if (Session["UserId"].ToString() == "1")
             {
                 this.MasterPageFile = "~/StudentMaster.Master";
             }
@@ -117,7 +117,7 @@ namespace CollegeERP.Student
                     txtEnrollmentNo.Text = ds.Tables[0].Rows[0]["enrollmentn_no"].ToString();
                     selectRank(ds.Tables[0].Rows[0]["rank"].ToString());
                     txtRankid.Text = ds.Tables[0].Rows[0]["rankid"].ToString();
-                    RDBLateral.SelectedValue = Convert.ToString(ds.Tables[0].Rows[0]["IsLateral"]);
+                    //RDBLateral.SelectedValue = Convert.ToString(ds.Tables[0].Rows[0]["IsLateral"]);
                     DDLReadmission.SelectedValue = Convert.ToString(ds.Tables[0].Rows[0]["IsReAdmission"]);
 
                     RdbHostelFacility.SelectedValue = Convert.ToString(ds.Tables[0].Rows[0]["IsHostelFacility"]);
@@ -126,10 +126,10 @@ namespace CollegeERP.Student
                     txtMigrationInfo.Text = ds.Tables[0].Rows[0]["MigrationInfo"].ToString();
                     DDLTFW.SelectedValue = Convert.ToString(ds.Tables[0].Rows[0]["TFW"]);
 
-                    txtPhy.Text = ds.Tables[0].Rows[0]["phy"].ToString();
-                    txtLsc.Text = ds.Tables[0].Rows[0]["Lsc"].ToString();
-                    txtMath.Text = ds.Tables[0].Rows[0]["math"].ToString();
-                    txtEngg.Text = ds.Tables[0].Rows[0]["engg"].ToString();
+                    txtPhy.Text = ds.Tables[0].Rows[0]["phy"].ToString();  // phy=phy
+                    txtLsc.Text = ds.Tables[0].Rows[0]["Lsc"].ToString();  // Lsc=Chem
+                    txtMath.Text = ds.Tables[0].Rows[0]["math"].ToString();  //math=math
+                    txtEngg.Text = ds.Tables[0].Rows[0]["engg"].ToString();  //engg=Bio
 
                     txtNameOfApplicant.Text = ds.Tables[0].Rows[0]["name"].ToString();
                     txtDob.Text = Convert.ToDateTime(ds.Tables[0].Rows[0]["dob"].ToString()).ToString("dd/MM/yyy");
@@ -259,7 +259,7 @@ namespace CollegeERP.Student
                         txtXYearOfPassing.Text = dataTable.Rows[i]["year_passing"].ToString();
                         txtXMarks.Text = dataTable.Rows[i]["division_marks"].ToString();
                     }
-                    else if (dataTable.Rows[i]["exam_id"].ToString() == "2")
+                    else if (dataTable.Rows[i]["exam_id"].ToString() == "2")   //here ITI=XII
                     {
                         txtITISubject.Text = dataTable.Rows[i]["major_subject"].ToString();
                         txtITIBoard.Text = dataTable.Rows[i]["board"].ToString();
@@ -481,6 +481,9 @@ namespace CollegeERP.Student
                 case "4":
                     rbMQ.Checked = true;
                     break;
+                case "5":
+                    rbCET.Checked = true;
+                    break;
 
             }
         }
@@ -695,7 +698,8 @@ namespace CollegeERP.Student
             eDipReg.strUniversityRollNo = txtUniversityRollNo.Text.Trim().Replace("'", "''");
             eDipReg.strMigrationInfo = txtMigrationInfo.Text.Trim().Replace("'", "''");
 
-            eDipReg.strIsLateral = Convert.ToBoolean(RDBLateral.SelectedItem.Value);
+            //eDipReg.strIsLateral = Convert.ToBoolean(RDBLateral.SelectedItem.Value);
+            eDipReg.strIsLateral = false;
             eDipReg.strIsHostelFacility = Convert.ToBoolean(RdbHostelFacility.SelectedItem.Value);
             eDipReg.strTFW = Convert.ToBoolean(DDLTFW.SelectedItem.Value);
             eDipReg.strIsReAdmission = Convert.ToBoolean(DDLReadmission.SelectedItem.Value);
@@ -723,10 +727,10 @@ namespace CollegeERP.Student
             //eDipReg.strCe = chkCe.Checked == true ? "6" : "0";
 
 
-            eDipReg.strPhy = txtPhy.Text.Trim().Length > 0 ? txtPhy.Text.Trim() : "0";
-            eDipReg.strLSc = txtLsc.Text.Trim().Length > 0 ? txtLsc.Text.Trim() : "0";
-            eDipReg.strMath = txtMath.Text.Trim().Length > 0 ? txtMath.Text.Trim() : "0";
-            eDipReg.strEngg = txtEngg.Text.Trim().Length > 0 ? txtEngg.Text.Trim() : "0";
+            eDipReg.strPhy = txtPhy.Text.Trim().Length > 0 ? txtPhy.Text.Trim() : "0";  
+            eDipReg.strLSc = txtLsc.Text.Trim().Length > 0 ? txtLsc.Text.Trim() : "0";   //here Lsc=Chem
+            eDipReg.strMath = txtMath.Text.Trim().Length > 0 ? txtMath.Text.Trim() : "0";   
+            eDipReg.strEngg = txtEngg.Text.Trim().Length > 0 ? txtEngg.Text.Trim() : "0";  //here Engg = Bio
 
 
             eDipReg.strNameOfApplicant = txtNameOfApplicant.Text.Trim().Replace("'", "''");
@@ -790,7 +794,7 @@ namespace CollegeERP.Student
             eDipReg.strXYearOfPassing = txtXYearOfPassing.Text.Trim().Replace("'", "''");
             eDipReg.strXMarks = txtXMarks.Text.Trim().Replace("'", "''");
 
-            eDipReg.strITISubject = txtITISubject.Text.Trim().Replace("'", "''");
+            eDipReg.strITISubject = txtITISubject.Text.Trim().Replace("'", "''");    //here ITI=XII
             eDipReg.strITIBoard = txtITIBoard.Text.Trim().Replace("'", "''");
             eDipReg.strITICollege = txtITICollege.Text.Trim().Replace("'", "''");
             eDipReg.strITIYearOfPassing = txtITIYearOfPassing.Text.Trim().Replace("'", "''");
@@ -997,6 +1001,8 @@ namespace CollegeERP.Student
                 strCheckItem = "3";
             else if (rbMQ.Checked == true)
                 strCheckItem = "4";
+            else if (rbCET.Checked == true)
+                strCheckItem = "5";
             return strCheckItem;
         }
         //End of Selected Rank Function
@@ -1048,7 +1054,7 @@ namespace CollegeERP.Student
 
                 }
                 ClearFields(contl.Controls);
-                RDBLateral.SelectedValue = "False";
+                //RDBLateral.SelectedValue = "False";
                 RdbHostelFacility.SelectedValue = "False";
                 DDLTFW.SelectedValue = "False";
                 ddlBatch.SelectedValue = "16";
@@ -1060,10 +1066,10 @@ namespace CollegeERP.Student
             rbMale.Checked = true;
             rbSingle.Checked = true;
             rbGeneral.Checked = true;
-            DDLReadmission.SelectedValue = "False"; 
+            DDLReadmission.SelectedValue = "False";
             for (int i = 0; i < chkStream.Items.Count; i++)
             {
-                chkStream.Items[i].Selected = false;
+                chkStream.Items[i].Selected = true;
             }
             ddlBatch.Enabled = true;
             btnSave.Text = "Save";

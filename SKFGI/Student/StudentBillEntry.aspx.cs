@@ -20,6 +20,7 @@ namespace CollegeERP.Student
         char chr = Convert.ToChar(130);
         ListItem li = new ListItem("---SELECT STUDENT---", "0");
         ListItem liS = new ListItem(" ", "0");
+        ListItem li2 = new ListItem("--select sem/year--", "");
 
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -34,19 +35,20 @@ namespace CollegeERP.Student
                     Response.Redirect("../Unauthorized.aspx");
                 }
                 Message.Show = false;
-                LoadSemFeesHead();
+                
               
                 LoadBatch();
                 // LoadStream();
                 LoadCourse();
                 LoadStudent(0, 0, 0);
+                LoadSemFeesHead();
             }
         }
 
         protected void LoadSemFeesHead()
         {
             BusinessLayer.Student.StreamGroup obj = new BusinessLayer.Student.StreamGroup();
-            DataTable DT = obj.GetAllFeesHead();
+            DataTable DT = obj.GetAllFeesHeadForSingleBillEntry(Convert.ToInt32(ddlCourse.SelectedValue));
 
             if (DT != null)
             {
@@ -270,6 +272,20 @@ namespace CollegeERP.Student
         protected void ddlCourse_SelectedIndexChanged(object sender, EventArgs e)
         {
             LoadStream();
+            ddlSemester.Items.Clear();
+            int CourseId = Convert.ToInt32(ddlCourse.SelectedValue);
+            BusinessLayer.Student.BTechRegistration ObjRegistration = new BusinessLayer.Student.BTechRegistration();
+            Entity.Student.BTechRegistration Registration = new Entity.Student.BTechRegistration();
+            Registration.intMode = 5;
+            Registration.CourseId = CourseId;
+            DataTable dt = ObjRegistration.GetAllCommonSP(Registration);
+            if (dt != null)
+            {
+                ddlSemester.DataSource = dt;
+                ddlSemester.DataBind();
+            }
+            ddlSemester.Items.Insert(0, li2);
+            LoadSemFeesHead();
         }
 
         protected void ddlStream_SelectedIndexChanged(object sender, EventArgs e)
@@ -312,6 +328,7 @@ namespace CollegeERP.Student
                 lblDropout.Visible = false;
                 lblDropout.Text = "";
             }
+            
         }
     }
 }

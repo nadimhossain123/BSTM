@@ -235,30 +235,47 @@ namespace CollegeERP.Student
             ddlSemNo.Items.Clear();
             int CourseId = BusinessLayer.Student.SearchStudent.GetStudentCourseId(Convert.ToInt32(ddlStudent.SelectedValue));
 
-            ListItem lst;
-            int LastSemNo = 0;
-            if (CourseId == 1 || CourseId == 3) //means MBA or MTech
-            {
-                LastSemNo = 6;
-            }
-            else if (CourseId == 2) // means BTech
-            {
-                LastSemNo = 8;
-            }
-            else if (CourseId == 4) //Diploma
-            {
-                LastSemNo = 6;
-            }
+            //ListItem lst;
+            //int LastSemNo = 0;
+            //if (CourseId == 1 || CourseId == 3) //means MBA or MTech
+            //{
+            //    LastSemNo = 6;
+            //}
+            //else if (CourseId == 2) // means BTech
+            //{
+            //    LastSemNo = 8;
+            //}
+            //else if (CourseId == 4) //Diploma
+            //{
+            //    LastSemNo = 6;
+            //}
 
-            for (int i = 1; i <= LastSemNo; i++)
-            {
-                lst = new ListItem("Sem-" + i.ToString(), i.ToString());
-                ddlSemNo.Items.Add(lst);
-            }
+            //for (int i = 1; i <= LastSemNo; i++)
+            //{
+            //    lst = new ListItem("Sem-" + i.ToString(), i.ToString());
+            //    ddlSemNo.Items.Add(lst);
+            //}
 
-            lst = new ListItem("--Select--", "0");
-            ddlSemNo.Items.Insert(0, lst);
-            ddlSemNo.SelectedValue = "0";
+            //lst = new ListItem("--Select--", "0");
+            //ddlSemNo.Items.Insert(0, lst);
+            //ddlSemNo.SelectedValue = "0";
+
+           
+            BusinessLayer.Student.BTechRegistration ObjRegistration = new BusinessLayer.Student.BTechRegistration();
+            Entity.Student.BTechRegistration Registration = new Entity.Student.BTechRegistration();
+            Registration.intMode = 5;
+            Registration.CourseId = CourseId;
+            DataTable dt = ObjRegistration.GetAllCommonSP(Registration);
+            if (dt != null)
+            {
+                ddlSemNo.DataSource = dt;
+                ddlSemNo.DataBind();
+            }
+            ddlSemNo.Items.Insert(0, li);
+
+
+
+
         }
 
         protected void dgvFine_RowCommand(object sender, GridViewCommandEventArgs e)

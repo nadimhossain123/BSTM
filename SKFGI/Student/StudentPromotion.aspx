@@ -166,7 +166,7 @@
                                     </asp:ImageField>
                                     <asp:BoundField DataField="student_code" HeaderText="Roll No" />
                                     <asp:BoundField DataField="name" HeaderText="Name" />
-                                    <asp:BoundField DataField="CurrentSem" HeaderText="Sem" />
+                                    <asp:BoundField DataField="CurrentSem" HeaderText="Sem/Year" />
                                 </Columns>
                                 <EmptyDataTemplate>
                                     <table style="height: 10px; width: 100%;">
@@ -189,10 +189,10 @@
                     </tr>
                     <tr>
                         <td width="65%" align="right" class="label">
-                            New Sem No:
+                            New Sem No / New Year:
                         </td>
                         <td align="center">
-                            <asp:DropDownList ID="ddlNewSemNo" runat="server" CssClass="dropdownList" Width="130px">
+                            <asp:DropDownList ID="ddlNewSemNo" runat="server" CssClass="dropdownList" Width="130px"  DataValueField="Value" DataTextField="Name">
                             </asp:DropDownList>
                         </td>
                         <td align="right">

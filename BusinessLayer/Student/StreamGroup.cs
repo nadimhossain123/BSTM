@@ -47,6 +47,10 @@ namespace BusinessLayer.Student
         {
             return DataAccess.student.StreamGroup.GetAllFeesHead();
         }
+        public DataTable GetAllFeesHeadForSingleBillEntry(int CourseId)
+        {
+            return DataAccess.student.StreamGroup.GetAllFeesHeadForSingleBillEntry(CourseId);
+        }
 
         public DataTable GetAllFeesHeadById(int feesId)
         {

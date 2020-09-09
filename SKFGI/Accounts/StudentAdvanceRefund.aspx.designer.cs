@@ -7,11 +7,13 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace CollegeERP.Accounts {
-    
-    
-    public partial class StudentAdvanceRefund {
-        
+namespace CollegeERP.Accounts
+{
+
+
+    public partial class StudentAdvanceRefund
+    {
+
         /// <summary>
         /// toolScript1 control.
         /// </summary>
@@ -20,7 +22,7 @@ namespace CollegeERP.Accounts {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::AjaxControlToolkit.ToolkitScriptManager toolScript1;
-        
+
         /// <summary>
         /// UP1 control.
         /// </summary>
@@ -29,7 +31,7 @@ namespace CollegeERP.Accounts {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.UpdatePanel UP1;
-        
+
         /// <summary>
         /// Message control.
         /// </summary>
@@ -38,7 +40,7 @@ namespace CollegeERP.Accounts {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::CollegeERP.UserControl.Message Message;
-        
+
         /// <summary>
         /// txtReceiptNo control.
         /// </summary>
@@ -47,7 +49,7 @@ namespace CollegeERP.Accounts {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtReceiptNo;
-        
+
         /// <summary>
         /// txtVoucherDate control.
         /// </summary>
@@ -56,7 +58,7 @@ namespace CollegeERP.Accounts {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtVoucherDate;
-        
+
         /// <summary>
         /// CalendarExtender2 control.
         /// </summary>
@@ -65,7 +67,7 @@ namespace CollegeERP.Accounts {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::AjaxControlToolkit.CalendarExtender CalendarExtender2;
-        
+
         /// <summary>
         /// ddlReceiptMode control.
         /// </summary>
@@ -74,7 +76,7 @@ namespace CollegeERP.Accounts {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList ddlReceiptMode;
-        
+
         /// <summary>
         /// ddlCashBankLedger control.
         /// </summary>
@@ -83,7 +85,7 @@ namespace CollegeERP.Accounts {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::AjaxControlToolkit.ComboBox ddlCashBankLedger;
-        
+
         /// <summary>
         /// txtChequeNo control.
         /// </summary>
@@ -92,7 +94,7 @@ namespace CollegeERP.Accounts {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtChequeNo;
-        
+
         /// <summary>
         /// txtChequeDate control.
         /// </summary>
@@ -101,7 +103,7 @@ namespace CollegeERP.Accounts {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtChequeDate;
-        
+
         /// <summary>
         /// CalendarExtender1 control.
         /// </summary>
@@ -110,7 +112,7 @@ namespace CollegeERP.Accounts {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::AjaxControlToolkit.CalendarExtender CalendarExtender1;
-        
+
         /// <summary>
         /// ltrLedgerBalance control.
         /// </summary>
@@ -119,7 +121,7 @@ namespace CollegeERP.Accounts {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Literal ltrLedgerBalance;
-        
+
         /// <summary>
         /// txtFeesBookNo control.
         /// </summary>
@@ -128,7 +130,7 @@ namespace CollegeERP.Accounts {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtFeesBookNo;
-        
+
         /// <summary>
         /// txtDrawnOn control.
         /// </summary>
@@ -137,7 +139,16 @@ namespace CollegeERP.Accounts {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtDrawnOn;
-        
+
+        /// <summary>
+        /// ddlCourseId control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList ddlCourseId;
+
         /// <summary>
         /// ddlSemester control.
         /// </summary>
@@ -146,7 +157,7 @@ namespace CollegeERP.Accounts {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList ddlSemester;
-        
+
         /// <summary>
         /// ddlStudent control.
         /// </summary>
@@ -155,7 +166,7 @@ namespace CollegeERP.Accounts {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::AjaxControlToolkit.ComboBox ddlStudent;
-        
+
         /// <summary>
         /// lblDropout control.
         /// </summary>
@@ -164,7 +175,7 @@ namespace CollegeERP.Accounts {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblDropout;
-        
+
         /// <summary>
         /// btnSearch control.
         /// </summary>
@@ -173,7 +184,7 @@ namespace CollegeERP.Accounts {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnSearch;
-        
+
         /// <summary>
         /// ImgPhoto control.
         /// </summary>
@@ -182,7 +193,7 @@ namespace CollegeERP.Accounts {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Image ImgPhoto;
-        
+
         /// <summary>
         /// dgvFeesHead control.
         /// </summary>
@@ -191,7 +202,7 @@ namespace CollegeERP.Accounts {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.GridView dgvFeesHead;
-        
+
         /// <summary>
         /// txtTotalAmt control.
         /// </summary>
@@ -200,7 +211,7 @@ namespace CollegeERP.Accounts {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtTotalAmt;
-        
+
         /// <summary>
         /// txtNarration control.
         /// </summary>
@@ -209,7 +220,7 @@ namespace CollegeERP.Accounts {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtNarration;
-        
+
         /// <summary>
         /// btnSave control.
         /// </summary>
@@ -218,7 +229,7 @@ namespace CollegeERP.Accounts {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnSave;
-        
+
         /// <summary>
         /// btnCancel control.
         /// </summary>
@@ -227,7 +238,7 @@ namespace CollegeERP.Accounts {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnCancel;
-        
+
         /// <summary>
         /// btnPrint control.
         /// </summary>

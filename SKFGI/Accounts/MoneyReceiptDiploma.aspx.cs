@@ -53,7 +53,7 @@ namespace CollegeERP.Accounts
             if (ds.Tables[0] != null)
             {
                 if (ds.Tables[0].Rows[0]["Amount"].ToString() != "")
-                    ((Literal)dgvBill.FooterRow.FindControl("ltrTotalAmt")).Text = "<b>" + ds.Tables[0].Rows[0]["Amount"].ToString() + "</b>";   
+                    ((Literal)dgvBill.FooterRow.FindControl("ltrTotalAmt")).Text = "<b>" + ds.Tables[0].Rows[0]["Amount"].ToString() + "</b>";
             }
         }
 
@@ -80,7 +80,7 @@ namespace CollegeERP.Accounts
                 ltrPaymentDate.Text = "<b>Date </b>" + Convert.ToDateTime(dt.Rows[0]["PaymentDate"].ToString()).ToString("dd/MM/yyyy");
                 ltrName.Text = "<b>Name: </b>" + dt.Rows[0]["name"].ToString();
                 ltrStudentCode.Text = "<b>Student ID: </b>" + dt.Rows[0]["student_code"].ToString();
-                ltrOther.Text = "<b>Year: </b>" + dt.Rows[0]["batch_name"].ToString() + "   <b>Course: </b>" + dt.Rows[0]["CourseName"].ToString() + "   <b>Stream: </b>" + dt.Rows[0]["stream_name"].ToString() + " <b>Semester: </b>" + dt.Rows[0]["SemNo"].ToString();
+                ltrOther.Text = "<b>Year: </b>" + dt.Rows[0]["batch_name"].ToString() + "   <b>Course: </b>" + dt.Rows[0]["CourseName"].ToString() + "   <b>Stream: </b>" + dt.Rows[0]["stream_name"].ToString() + " <b>Year: </b>" + dt.Rows[0]["SemNo"].ToString();
                 ltrAmtInWord.Text = "<b>Rupees (in words) </b>" + dt.Rows[0]["AmountInWords"].ToString();
 
                 string ReceiptMode = dt.Rows[0]["PaymentMode"].ToString();

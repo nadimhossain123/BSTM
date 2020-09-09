@@ -106,7 +106,7 @@
                         </asp:RadioButtonList>
                     </td>
                 </tr>
-                 <tr>
+                <%-- <tr>
                     <td align="left" width="20%" valign="top"  style="padding-top:2px">
                         Lateral
                     </td>
@@ -117,7 +117,7 @@
                             <asp:ListItem Value="False">NO</asp:ListItem>
                         </asp:RadioButtonList>
                     </td>
-                </tr>
+                </tr>--%>
             </table>
         </div>
         <div style="width: 760px;">
@@ -141,7 +141,7 @@
                
                 <tr>
                     <td align="left" class="style1">
-                        Percentage of marks (10) :-
+                        Percentage of marks (10+2) :-
                     </td>
                     <td align="left">
                         <table style="width: 80%">
@@ -153,7 +153,7 @@
                                     <asp:Label ID="lblPhy" runat="server"></asp:Label>
                                 </td>
                                 <td>
-                                    LSc-
+                                    Chem-
                                 </td>
                                 <td>
                                     <asp:Label ID="lblLSc" runat="server"></asp:Label>
@@ -165,7 +165,7 @@
                                     <asp:Label ID="lblMath" runat="server"></asp:Label>
                                 </td>
                                 <td>
-                                    Eng-
+                                    Bio-
                                 </td>
                                 <td>
                                     <asp:Label ID="lblEngg" runat="server"></asp:Label>
@@ -612,7 +612,7 @@
                                 </tr>
                                 <tr>
                                     <td style="color: #00356A;">
-                                        ITI
+                                        Class XII
                                     </td>
                                     <td>
                                         <asp:Label ID="lblITISubject" runat="server"></asp:Label>
@@ -657,7 +657,7 @@
                     <table>
                     <tr>
                     <td align="left" width="137px"  class="label">
-                        School/College<span class="req"></span>
+                        School/College
                     </td>
                     <td align="left">
                        
@@ -719,7 +719,7 @@
                         <asp:CheckBox ID="chkListDoc4" runat="server" onclick="return false;" />
                     </td>
                     <td align="left">
-                        Original Mark Sheet of ITI,Vocational Examination along with two Xerox copies.
+                        Original Mark Sheet of 10+2,Vocational Examination along with two Xerox copies.
                     </td>
                 </tr>
                 <tr>

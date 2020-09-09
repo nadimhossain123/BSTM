@@ -20,6 +20,7 @@ namespace CollegeERP.Accounts
         clsGeneralFunctions gf = new clsGeneralFunctions();
         char chr = Convert.ToChar(130);
         ListItem li = new ListItem("---SELECT STUDENT---", "0");
+        ListItem li2 = new ListItem("---SELECT SEM/YEAR---", "0");
 
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -40,7 +41,9 @@ namespace CollegeERP.Accounts
         protected void LoadFeesHead()
         {
             BusinessLayer.Student.StreamGroup obj = new BusinessLayer.Student.StreamGroup();
-            DataTable DT = obj.GetAllFeesHead();
+
+            DataTable DT = obj.GetAllFeesHeadForSingleBillEntry(Convert.ToInt32(ddlCourse.SelectedValue)) ;
+
 
             if (DT != null)
             {
@@ -80,6 +83,7 @@ namespace CollegeERP.Accounts
             LoadCourse();
             LoadStudent();
             LoadFeesHead();
+            LoadSemester();
             ddlSemester.SelectedIndex = 0;
             Message.Show = false;
             txtTotalAmt.Text = "0.00";
@@ -135,10 +139,28 @@ namespace CollegeERP.Accounts
             }
         }
 
+        protected void LoadSemester()
+        {
+            int CourseId = int.Parse(ddlCourse.SelectedValue.Trim());
+            BusinessLayer.Student.BTechRegistration ObjRegistration = new BusinessLayer.Student.BTechRegistration();
+            Entity.Student.BTechRegistration Registration = new Entity.Student.BTechRegistration();
+            Registration.intMode = 5;
+            Registration.CourseId = CourseId;
+            DataTable dt = ObjRegistration.GetAllCommonSP(Registration);
+            if (dt != null)
+            {
+                ddlSemester.DataSource = dt;
+                ddlSemester.DataBind();
+            }
+            ddlSemester.Items.Insert(0, li2);
+        }
+
         protected void ddlCourse_SelectedIndexChanged(object sender, EventArgs e)
         {
             LoadStream();
             LoadStudent();
+            LoadSemester();
+            LoadFeesHead();
         }
 
         protected void ddlStream_SelectedIndexChanged(object sender, EventArgs e)

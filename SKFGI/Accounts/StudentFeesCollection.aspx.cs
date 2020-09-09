@@ -454,8 +454,11 @@ namespace CollegeERP.Accounts
 
             if (DV != null)
             {
+                ddlCourseId.DataSource = DV;
+                ddlCourseId.DataBind();
                 ddlCourse.DataSource = DV;
                 ddlCourse.DataBind();
+
             }
             LoadStream();
         }
@@ -472,6 +475,21 @@ namespace CollegeERP.Accounts
                 ddlStream.DataSource = dt;
                 ddlStream.DataBind();
             }
+        }
+        protected void LoadSemester()
+        {
+            int CourseId = int.Parse(ddlCourseId.SelectedValue.Trim());
+            BusinessLayer.Student.BTechRegistration ObjRegistration = new BusinessLayer.Student.BTechRegistration();
+            Entity.Student.BTechRegistration Registration = new Entity.Student.BTechRegistration();
+            Registration.intMode = 5;
+            Registration.CourseId = CourseId;
+            DataTable dt = ObjRegistration.GetAllCommonSP(Registration);
+            if (dt != null)
+            {
+                ddlSemester.DataSource = dt;
+                ddlSemester.DataBind();
+            }
+            ddlSemester.Items.Insert(0, li);
         }
 
         protected void ddlBatch_SelectedIndexChanged(object sender, EventArgs e)
@@ -492,6 +510,10 @@ namespace CollegeERP.Accounts
         protected void ddlCourse_SelectedIndexChanged(object sender, EventArgs e)
         {
             LoadStream();
+        }
+        protected void ddlCourseId_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            LoadSemester();
         }
 
         protected void ddlStream_SelectedIndexChanged(object sender, EventArgs e)

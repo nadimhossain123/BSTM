@@ -76,7 +76,7 @@ namespace CollegeERP.Student
                     //    chkLateral.Checked = true;
                     //}
                     //else { chkLateral.Checked = false; }
-                    RDBLateral.SelectedValue = Convert.ToString(ds.Tables[0].Rows[0]["IsLateral"]);
+                    //RDBLateral.SelectedValue = Convert.ToString(ds.Tables[0].Rows[0]["IsLateral"]);
                     //----------------------------------------
 
                     lblPhy.Text = ds.Tables[0].Rows[0]["phy"].ToString();
@@ -278,15 +278,10 @@ namespace CollegeERP.Student
         {
             switch (cast)
             {
-                case "CE":
-                    lblStreamApplied.Text = "CE(Civil Engineering)";
+                case "D.Pharm":
+                    lblStreamApplied.Text = "D.Pharm";
                     break;
-                case "ME":
-                    lblStreamApplied.Text = "ME(Mechanical Engineering)";
-                    break;
-                case "EE":
-                    lblStreamApplied.Text = "EE(Electrical Engineering)";
-                    break;
+                
             }
         }
         //End of Stream Name Function
@@ -478,6 +473,9 @@ namespace CollegeERP.Student
                     break;
                 case "4":
                     lblOption.Text = "MQ";
+                    break;
+                case "5":
+                    lblOption.Text = "CET";
                     break;
             }
         }

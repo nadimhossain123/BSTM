@@ -14,6 +14,8 @@
             
             if (document.getElementById('<%=txtVoucherDate.ClientID%>').value == '') 
                 return ShowMsg("Please Enter Voucher Date");
+            else if (document.getElementById('<%=ddlCourseId.ClientID%>').selectedIndex == 0)
+                return ShowMsg("Please Select Course");
             else if (document.getElementById('<%=ddlSemester.ClientID%>').selectedIndex == 0) 
                 return ShowMsg("Please Select Semester");    
             else if (rowCount == 0) 
@@ -203,20 +205,21 @@
                         <td align="left">
                             <asp:TextBox ID="txtDrawnOn" runat="server" CssClass="textbox" Width="120px"></asp:TextBox>
                         </td>
+                        </tr>
+                    <tr>
+                        <td align="left" width="10%" class="label">
+                            Course<span class="req">*</span>
+                        </td>
+                         <td align="left">
+                            <asp:DropDownList ID="ddlCourseId" runat="server" AutoPostBack="true" CssClass="dropdownList"
+                                Width="120px" DataValueField="CourseId" DataTextField="CourseName" OnSelectedIndexChanged="ddlCourseId_SelectedIndexChanged">
+                            </asp:DropDownList>
+                        </td>
                         <td align="left" width="10%" class="label">
                             Semester<span class="req">*</span>
                         </td>
                         <td align="left">
-                            <asp:DropDownList ID="ddlSemester" runat="server" CssClass="dropdownList" Width="120px">
-                                <asp:ListItem Value="0" Text="---SELECT---"></asp:ListItem>
-                                <asp:ListItem Value="1" Text="SEM 1"></asp:ListItem>
-                                <asp:ListItem Value="2" Text="SEM 2"></asp:ListItem>
-                                <asp:ListItem Value="3" Text="SEM 3"></asp:ListItem>
-                                <asp:ListItem Value="4" Text="SEM 4"></asp:ListItem>
-                                <asp:ListItem Value="5" Text="SEM 5"></asp:ListItem>
-                                <asp:ListItem Value="6" Text="SEM 6"></asp:ListItem>
-                                <asp:ListItem Value="7" Text="SEM 7"></asp:ListItem>
-                                <asp:ListItem Value="8" Text="SEM 8"></asp:ListItem>
+                            <asp:DropDownList ID="ddlSemester" runat="server" CssClass="dropdownList" Width="120px" DataValueField="Value" DataTextField="Name">
                             </asp:DropDownList>
                         </td>
                     </tr>

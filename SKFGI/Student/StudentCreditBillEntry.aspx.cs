@@ -20,6 +20,7 @@ namespace CollegeERP.Student
         char chr = Convert.ToChar(130);
         ListItem li = new ListItem("---SELECT STUDENT---", "0");
         ListItem liS = new ListItem(" ", "0");
+        ListItem li2 = new ListItem("---SELECT SEM/YEAR---", "0");
 
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -34,18 +35,19 @@ namespace CollegeERP.Student
                     Response.Redirect("../Unauthorized.aspx");
                 }
                 Message.Show = false;
-                LoadSemFeesHead();
+                
                 LoadStudent();
                 LoadBatch();
                 // LoadStream();
                 LoadCourse();
+                LoadSemFeesHead();
             }
         }
 
         protected void LoadSemFeesHead()
         {
             BusinessLayer.Student.StreamGroup obj = new BusinessLayer.Student.StreamGroup();
-            DataTable DT = obj.GetAllFeesHead();
+            DataTable DT = obj.GetAllFeesHeadForSingleBillEntry(Convert.ToInt32(ddlCourse.SelectedValue));
 
             if (DT != null)
             {
@@ -164,6 +166,7 @@ namespace CollegeERP.Student
                     ddlBatch.DataBind();
                 }
             }
+            LoadStudent();
         }
         protected void LoadCourse()
         {
@@ -179,6 +182,7 @@ namespace CollegeERP.Student
                 ddlCourse.DataBind();
             }
             LoadStream();
+            
         }
         protected void LoadStream()
         {
@@ -207,12 +211,13 @@ namespace CollegeERP.Student
                 ddlStudent.DataSource = dv;
                 ddlStudent.DataBind();
             }
-            ddlStudent.Items.Insert(0, liS);
+            ddlStudent.Items.Insert(0, li);
         }
 
         protected void ddlCourse_SelectedIndexChanged(object sender, EventArgs e)
         {
             LoadStream();
+            LoadSemFeesHead();
         }
 
         protected void ddlStream_SelectedIndexChanged(object sender, EventArgs e)
@@ -227,12 +232,26 @@ namespace CollegeERP.Student
                 ddlStudent.DataSource = dv;
                 ddlStudent.DataBind();
             }
-            ddlStudent.Items.Insert(0, liS);
+            ddlStudent.Items.Insert(0, li);
         }
 
         protected void ddlStudent_SelectedIndexChanged(object sender, EventArgs e)
         {
             Session["State"] = 0;
+            ddlSemester.Items.Clear();
+            int CourseId = BusinessLayer.Student.SearchStudent.GetStudentCourseId(Convert.ToInt32(ddlStudent.SelectedValue));
+            BusinessLayer.Student.BTechRegistration ObjRegistration = new BusinessLayer.Student.BTechRegistration();
+            Entity.Student.BTechRegistration Registration = new Entity.Student.BTechRegistration();
+            Registration.intMode = 5;
+            Registration.CourseId = CourseId;
+            DataTable dt = ObjRegistration.GetAllCommonSP(Registration);
+            if (dt != null)
+            {
+                ddlSemester.DataSource = dt;
+                ddlSemester.DataBind();
+            }
+            ddlSemester.Items.Insert(0, li2);
+
         }
     }
 }

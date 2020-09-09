@@ -126,6 +126,18 @@ namespace DataAccess.student
             {
                 oDm.CommandType = CommandType.StoredProcedure;
                 oDm.Add("@int_mode", SqlDbType.Int, 14);
+
+                return oDm.ExecuteDataTable("usp_fees_insert");
+            }
+        }
+
+        public static DataTable GetAllFeesHeadForSingleBillEntry(int CourseId)
+        {
+            using (DataManager oDm = new DataManager())
+            {
+                oDm.CommandType = CommandType.StoredProcedure;
+                oDm.Add("@int_mode", SqlDbType.Int, 18);
+                oDm.Add("@courseID", SqlDbType.Int, CourseId);
                 return oDm.ExecuteDataTable("usp_fees_insert");
             }
         }
