@@ -189,7 +189,7 @@ namespace CollegeERP.Student
                     LoadCourse();
                     txtBillDate.Text = string.Empty;
                     txtTotalAmt.Text = "0.00";
-                    ddlSemester.SelectedValue = "0";
+                    //ddlSemester.SelectedValue = "0";
                     ddlStudent.SelectedValue = "0";
                     //-------------------------
                 }

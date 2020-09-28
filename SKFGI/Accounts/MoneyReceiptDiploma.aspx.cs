@@ -76,11 +76,16 @@ namespace CollegeERP.Accounts
                 {
                     ltrHeader.Text = "Cash/Bank Voucher Payment";
                 }
+                string Type = "Sem : ";
+                if (dt.Rows[0]["CourseName"].ToString()=="Diploma")
+                {
+                    Type = "Year : ";
+                }
                 ltrReceiptNo.Text = "<b>Sl. No. </b>" + dt.Rows[0]["MoneyReceiptNo"].ToString();
                 ltrPaymentDate.Text = "<b>Date </b>" + Convert.ToDateTime(dt.Rows[0]["PaymentDate"].ToString()).ToString("dd/MM/yyyy");
                 ltrName.Text = "<b>Name: </b>" + dt.Rows[0]["name"].ToString();
                 ltrStudentCode.Text = "<b>Student ID: </b>" + dt.Rows[0]["student_code"].ToString();
-                ltrOther.Text = "<b>Year: </b>" + dt.Rows[0]["batch_name"].ToString() + "   <b>Course: </b>" + dt.Rows[0]["CourseName"].ToString() + "   <b>Stream: </b>" + dt.Rows[0]["stream_name"].ToString() + " <b>Year: </b>" + dt.Rows[0]["SemNo"].ToString();
+                ltrOther.Text = "<b>Year: </b>" + dt.Rows[0]["batch_name"].ToString() + "   <b>Course: </b>" + dt.Rows[0]["CourseName"].ToString() + "   <b>Stream: </b>" + dt.Rows[0]["stream_name"].ToString() + " <b>"+Type+"</b>" + dt.Rows[0]["SemNo"].ToString();
                 ltrAmtInWord.Text = "<b>Rupees (in words) </b>" + dt.Rows[0]["AmountInWords"].ToString();
 
                 string ReceiptMode = dt.Rows[0]["PaymentMode"].ToString();

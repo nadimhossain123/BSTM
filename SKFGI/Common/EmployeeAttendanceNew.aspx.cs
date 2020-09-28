@@ -1,4 +1,5 @@
 ﻿using System;
+using System;
 using System.Collections;
 using System.Configuration;
 using System.Data;
@@ -32,6 +33,7 @@ namespace CollegeERP.Common
                     Response.Redirect("../Unauthorized.aspx");
                 }
                 LoadYear();
+                TestCode();
                 Message.Show = false;
             }
         }
@@ -365,7 +367,71 @@ namespace CollegeERP.Common
             BusinessLayer.Common.Excel.SaveExcel(_header, dgvAttendanceRpt , _footer, file);
            
         }
+        DataTable dt = new DataTable();
+        protected void TestCode()
+        {
+            
+            dt.Columns.Add("Year");
+            int Y;
+            for (Y = 1990; Y <= 2025; Y++)
+            {
+                DataRow dr = dt.NewRow();
+                dr["Year"] = Y.ToString();
+                dt.Rows.InsertAt(dr, 0);
+                dt.AcceptChanges();
+            }
 
-       
+            int s = 0, e = 0, p = 0, length;
+            string Arr = "A 2016ABC-0024D";
+            length = Arr.Length;
+            for (p = 0; p < length; p++)
+            {
+                char t = Arr[p];
+                if (Arr[p].ToString()==" ")
+                {
+                    s = p + 1;
+                    e = s + 1;
+                }
+                else
+                {
+                    e = e + 1;
+                    
+                }
+                if (e - s == length - 1)
+                {
+                    if(check(Arr.Substring(s,13)) ==1)
+                    {
+                        Save();
+                    }
+                    else
+                    {
+                        s = s + 1;
+                        break;
+                    }
+                }
+            }
+        }
+        protected int check(string sub)
+        {
+            int result = 0;
+            foreach (DataRow Dr in dt.Rows)
+            {
+                if (sub.Contains(Dr["Year"].ToString()) && sub.Contains("-"))
+                {
+                    result = 1;
+                    break;
+                }
+                
+
+            }
+            return result;
+        }
+
+        protected void Save()
+        {
+           
+        }
+
+
     }
 }

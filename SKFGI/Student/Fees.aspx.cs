@@ -317,7 +317,20 @@ namespace CollegeERP.Student
         {
             string ReturnValue = "";
             int courseID = Convert.ToInt32(ddlCourse1.SelectedValue);
-            if (courseID != 4)
+            if (courseID == 1)
+            {
+                switch (SemNo)
+                {
+                    case 1: ReturnValue = "1st Sem"; break;
+                    case 2: ReturnValue = "2nd Sem"; break;
+                    case 3: ReturnValue = "3rd Sem"; break;
+                    case 4: ReturnValue = "4th Sem"; break;
+                    case 5: ReturnValue = "5th Sem"; break;
+                    case 6: ReturnValue = "6th Sem"; break;
+                    
+                }
+            }
+            if (courseID == 2)
             {
                 switch (SemNo)
                 {
@@ -329,25 +342,22 @@ namespace CollegeERP.Student
                     case 6: ReturnValue = "6th Sem"; break;
                     case 7: ReturnValue = "7th Sem"; break;
                     case 8: ReturnValue = "8th Sem"; break;
-                }
-            }
-            if (courseID == 0)
-            {
-                switch (SemNo)
-                {
-                    case 1: ReturnValue = "1st Sem/year"; break;
-                    case 2: ReturnValue = "2nd Sem/year"; break;
-                    case 3: ReturnValue = "3rd Sem"; break;
-                    case 4: ReturnValue = "4th Sem"; break;
-                    case 5: ReturnValue = "5th Sem"; break;
-                    case 6: ReturnValue = "6th Sem"; break;
-                    case 7: ReturnValue = "7th Sem"; break;
-                    case 8: ReturnValue = "8th Sem"; break;
                     
                 }
             }
+            if (courseID == 3)
+            {
+                switch (SemNo)
+                {
+                    case 1: ReturnValue = "1st Sem"; break;
+                    case 2: ReturnValue = "2nd Sem"; break;
+                    case 3: ReturnValue = "3rd Sem"; break;
+                    case 4: ReturnValue = "4th Sem"; break;
+                    
 
-            else
+                }
+            }
+            if (courseID == 4)
             {
                 switch (SemNo)
                 {
@@ -399,15 +409,19 @@ namespace CollegeERP.Student
 
                 if (dt.Rows.Count > 0)
                 {
-                    if (courseType == 1 || courseType == 3)
+                    if (courseType == 1)
                     {
                         headerCount = 6;
+                    }
+                    if (courseType == 3)
+                    {
+                        headerCount = 4;
                     }
                     if (courseType == 4)
                     {
                         headerCount = 2;
                     }
-                    else
+                    if (courseType == 2)
                     {
                         headerCount = 8;
                     }

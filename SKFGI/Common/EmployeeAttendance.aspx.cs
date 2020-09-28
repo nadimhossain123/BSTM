@@ -153,7 +153,7 @@ namespace CollegeERP.Common
         {
             System.Data.DataTable DT = new System.Data.DataTable();
             DT.Columns.Add("EmpCode",typeof(string));
-            DT.Columns.Add("Present",typeof(decimal));
+            DT.Columns.Add("Present", typeof(decimal));
             DT.Columns.Add("Absent",typeof(decimal));
 
             DataRow DR;
