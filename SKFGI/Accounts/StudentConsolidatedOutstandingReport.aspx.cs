@@ -37,7 +37,7 @@ namespace CollegeERP.Accounts
 
                  LoadCourse();
                  LoadBatch();
-                 LoadFeesHead();
+                // LoadFeesHead();
                  dgvBill.DataSource = null;
                  dgvBill.DataBind();
                  btnDownload.Visible = false;
@@ -47,7 +47,8 @@ namespace CollegeERP.Accounts
         private void LoadFeesHead()
         {
             BusinessLayer.Student.StreamGroup ObjFees = new BusinessLayer.Student.StreamGroup();
-            DataTable DT = ObjFees.GetAllFeesHead();
+            int CourseId = Convert.ToInt32(ddlCourse.SelectedValue);
+            DataTable DT = ObjFees.GetAllFeesHeadByCourseId(CourseId);
 
             ddlFeesHead.DataSource = DT;
             ddlFeesHead.DataBind();
@@ -86,7 +87,8 @@ namespace CollegeERP.Accounts
                 ddlCourse.DataBind();
             }
             LoadStream();
-            LoadSemNo();
+            
+            
         }
 
         private void LoadStream()
@@ -106,30 +108,47 @@ namespace CollegeERP.Accounts
 
         private void LoadSemNo()
         {
-            ddlSemNo.Items.Clear();
+            //ddlSemNo.Items.Clear();
+            //int CourseId = int.Parse(ddlCourse.SelectedValue.Trim());
+            //ListItem lst;
+            //int LastSemNo = 0;
+            //if (CourseId == 1 || CourseId == 3) //means MBA or MTech
+            //{
+            //    LastSemNo = 6;
+            //}
+            //else { LastSemNo = 8; }
+
+            //for (int i = 1; i <= LastSemNo; i++)
+            //{
+            //    lst = new ListItem("Sem-" + i.ToString(), i.ToString());
+            //    ddlSemNo.Items.Add(lst);
+            //}
+
+            //ddlSemNo.Items.Insert(0, li);
+            //ddlSemNo.SelectedValue = "0";
+
             int CourseId = int.Parse(ddlCourse.SelectedValue.Trim());
-            ListItem lst;
-            int LastSemNo = 0;
-            if (CourseId == 1 || CourseId == 3) //means MBA or MTech
+            BusinessLayer.Student.BTechRegistration ObjRegistration = new BusinessLayer.Student.BTechRegistration();
+            Entity.Student.BTechRegistration Registration = new Entity.Student.BTechRegistration();
+            Registration.intMode = 5;
+            Registration.CourseId = CourseId;
+            DataTable dt = ObjRegistration.GetAllCommonSP(Registration);
+            if (dt != null)
             {
-                LastSemNo = 6;
+                ddlSemNo.DataSource = dt;
+                ddlSemNo.DataBind();
             }
-            else { LastSemNo = 8; }
-
-            for (int i = 1; i <= LastSemNo; i++)
-            {
-                lst = new ListItem("Sem-" + i.ToString(), i.ToString());
-                ddlSemNo.Items.Add(lst);
-            }
-
             ddlSemNo.Items.Insert(0, li);
-            ddlSemNo.SelectedValue = "0";
+
+
+
         }
 
         protected void ddlCourse_SelectedIndexChanged(object sender, EventArgs e)
         {
             LoadStream();
             LoadSemNo();
+            LoadFeesHead();
         }
 
         protected void btnSearch_Click(object sender, EventArgs e)

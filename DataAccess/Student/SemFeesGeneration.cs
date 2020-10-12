@@ -82,7 +82,11 @@ namespace DataAccess.Student
 
                 
                // return oDm.ExecuteDataTable("usp_GetConsolidatedStudentOutstandingReport");
+
+                if(SemFees.CourseId!=4)
                 return oDm.ExecuteDataTable("usp_GetConsolidatedStudentOutstandingReport2");
+                else
+                return oDm.ExecuteDataTable("usp_GetConsolidatedStudentOutstandingReport2Diploma");
             }
         }
     }

@@ -70,10 +70,10 @@
                     </asp:DropDownList>
                 </td>
                 <td class="label">
-                    Semester:
+                    Semester / Year:
                 </td>
                 <td>
-                    <asp:DropDownList ID="ddlSemNo" runat="server" CssClass="dropdownList" Width="140px">
+                    <asp:DropDownList ID="ddlSemNo" runat="server" CssClass="dropdownList" Width="140px"  DataValueField="Value" DataTextField="Name" >
                     </asp:DropDownList>
                 </td>
             </tr>
